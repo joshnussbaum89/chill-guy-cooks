@@ -2,8 +2,33 @@
 /*              Media Queries                    */
 /* ============================================= */
 
-@media (min-width: $md){
+@media (min-width: $md) {
+
+    .featured {
+        padding: 0 1rem;
+        &-img {
+            @include flexy($dir: row, $wrap: wrap);
+            &-pic {
+                width: 45%;
+                padding: .5rem;
+            }
+        }
+    }
+
+}
+
+@media (min-width: $lg){
+
     .hero h1 {
         font-size: 6em;
     }
+
+    .featured {
+        padding: 0 2rem;
+    }
+
+    .featured-img-pic {
+        width: 30%;
+    }
+    
 }
