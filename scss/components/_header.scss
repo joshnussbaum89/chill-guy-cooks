@@ -1,0 +1,40 @@
+/* ============================================= */
+/*              Header                           */
+/* ============================================= */
+
+.hero {
+    background-image: url('../images/hero-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    &-overlay {
+        background-color: rgba(11, 13, 77, 0.4); // change to earthy green
+        height: 100vh;
+    }
+    h1 {
+        font-size: 4em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: auto;
+        text-align: center;
+        color: $white;
+    }
+}
+
+.nav {
+    @include flexy($just: space-between, $align: center);
+    padding: 2rem;
+    color: $white;
+    &-menu {
+        cursor: pointer;
+        width: 30px;
+        transition: .2s;
+        &:hover {
+            fill: $babish-grey; // change to earthy green
+        }
+    }
+}
+

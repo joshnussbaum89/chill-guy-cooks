@@ -1,0 +1,36 @@
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+
+* {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+html {
+    background-color: $babish-black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: .2s;
+    &:hover {
+        color: $babish-grey; // change to earthy green
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
