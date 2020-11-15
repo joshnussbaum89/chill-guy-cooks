@@ -11,12 +11,14 @@ const closeBtn = document.querySelector('.closebtn');
 function openNav() {
     document.getElementById("mySidenav").style.width = "75%";
     document.getElementById("main").style.marginRight = "75%";
+    navMenu.style.display = "none";
 }
 
 // Close Navigation
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginRight = "0";
+    navMenu.style.display = "block";
 }
 
 // Open and close navigation based on user click

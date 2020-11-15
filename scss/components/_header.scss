@@ -33,7 +33,7 @@
         width: 25px;
         transition: .2s;
         &:hover {
-            fill: $babish-grey; // change to earthy green
+            fill: $text; // change to earthy green
         }
     }
 }
@@ -53,13 +53,25 @@
     overflow-x: hidden;
     transition: 0.3s;
     padding-top: 60px;
-    li {
-        padding: 8px 8px 8px 32px;
-        margin-bottom: 2rem;
-        text-decoration: none;
-        font-size: 25px;
+    li:first-child {
         display: block;
         transition: 0.3s;
+    }
+    li:not(:first-child) {
+        width: 80%;
+        text-align: center;
+        padding: 2rem 0;
+        border-bottom: 1px solid $text;
+        text-decoration: none;
+        font-size: 1.4rem;
+        display: block;
+        transition: 0.3s;
+    }
+    a {
+        color: $text;
+        &:hover {
+            color: $white;
+        }
     }
     .closebtn {
         position: absolute;

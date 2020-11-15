@@ -361,7 +361,7 @@ a {
   transition: 0.2s;
 }
 a:hover {
-  color: #363636;
+  color: #51575b;
 }
 
 h1,
@@ -429,7 +429,7 @@ h6 {
   transition: 0.2s;
 }
 .nav-menu:hover {
-  fill: #363636;
+  fill: #51575b;
 }
 
 .sidenav {
@@ -448,13 +448,25 @@ h6 {
   transition: 0.3s;
   padding-top: 60px;
 }
-.sidenav li {
-  padding: 8px 8px 8px 32px;
-  margin-bottom: 2rem;
-  text-decoration: none;
-  font-size: 25px;
+.sidenav li:first-child {
   display: block;
   transition: 0.3s;
+}
+.sidenav li:not(:first-child) {
+  width: 80%;
+  text-align: center;
+  padding: 2rem 0;
+  border-bottom: 1px solid #51575b;
+  text-decoration: none;
+  font-size: 1.4rem;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a {
+  color: #51575b;
+}
+.sidenav a:hover {
+  color: #fff;
 }
 .sidenav .closebtn {
   position: absolute;
