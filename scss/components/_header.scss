@@ -32,6 +32,7 @@
         cursor: pointer;
         width: 25px;
         transition: .2s;
+        display: block;
         &:hover {
             fill: $text; // change to earthy green
         }

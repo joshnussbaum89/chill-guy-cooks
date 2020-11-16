@@ -7,18 +7,19 @@ const main = document.getElementById("main");
 const nav = document.querySelector('.nav');
 const navMenu = document.querySelector('.nav-menu');
 const desktopNav = document.querySelector('.desktopnav');
-const mobileMav = document.querySelector('.sidenav');
+const mobileNav = document.querySelector('.sidenav');
 const closeBtn = document.querySelector('.closebtn');
 
 // Open Navigation
 function openNav() {
-    mobileMav.style.width = "75%";
+    mobileNav.style.width = "75%";
+    mobileNav.style.margin = "0";
     main.style.marginRight = "75%";
 }
 
 // Close Navigation
 function closeNav() {
-    mobileMav.style.width = "0";
+    mobileNav.style.width = "0";
     main.style.marginRight = "0";
 }
 
@@ -26,8 +27,10 @@ function closeNav() {
 nav.addEventListener('click', (e) => {
     if (e.target === navMenu) {
         openNav();
+        navMenu.style.display = "none";
     } else if (e.target === closeBtn) {
         closeNav();
+        navMenu.style.display = "block";
     }
 });
 

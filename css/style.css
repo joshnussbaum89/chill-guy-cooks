@@ -435,6 +435,7 @@ h6 {
   cursor: pointer;
   width: 25px;
   transition: 0.2s;
+  display: block;
 }
 .nav-menu:hover {
   fill: #51575b;
