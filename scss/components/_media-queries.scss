@@ -12,6 +12,18 @@
         }
     }
 
+    .desktopnav {
+        @include flexy();
+        li {
+            padding: 0 1rem;
+            list-style: none;
+        }
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
 }
 
 @media (min-width: $lg){
