@@ -350,6 +350,7 @@ html {
 }
 
 body {
+  z-index: 0;
   margin: 0;
   padding: 0;
   background-color: #fff;
@@ -396,6 +397,26 @@ h6 {
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
+.recipe-button {
+  font-size: 1rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto 4rem;
+  padding: 1.5rem;
+  color: #131416;
+  background-color: #fff;
+  border: 2px solid #131416;
+  border-radius: 300px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.recipe-button:hover {
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: #131416;
+}
+
 /* ============================================= */
 /*              Grid System                      */
 /* ============================================= */
@@ -404,6 +425,7 @@ h6 {
 /* ============================================= */
 .hero {
   background-image: url("../images/hero-background.jpg");
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -425,17 +447,23 @@ h6 {
 }
 
 .nav {
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  height: 0.5rem;
+  background-color: initial;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  align-self: flex-start;
   padding: 2rem;
   color: #fff;
+  transition: 0.2s;
 }
 .nav-menu {
   cursor: pointer;
   width: 25px;
   transition: 0.2s;
-  display: block;
 }
 .nav-menu:hover {
   fill: #51575b;
@@ -445,7 +473,7 @@ h6 {
 /*              Images                           */
 /* ============================================= */
 .featured-img {
-  padding: 4rem 0;
+  padding: 2rem 0;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 2rem;

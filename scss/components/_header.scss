@@ -4,6 +4,7 @@
 
 .hero {
     background-image: url('../images/hero-background.jpg');
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,14 +26,21 @@
 }
 
 .nav {
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    height: .5rem;
+    background-color: initial;
     @include flexy($just: space-between, $align: center);
+    align-self: flex-start;
     padding: 2rem;
     color: $white;
+    transition: .2s;
     &-menu {
         cursor: pointer;
         width: 25px;
         transition: .2s;
-        display: block;
+        // display: block;
         &:hover {
             fill: $text; // change to earthy green
         }

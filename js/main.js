@@ -45,3 +45,14 @@ window.addEventListener("resize", () => {
         closeNav();
     }
 });
+
+// Change nav background to black on scroll
+window.addEventListener('scroll', () => {
+    const top = window.scrollY;
+
+    if (top === 0) {
+        nav.style.backgroundColor = 'initial';
+    } else if (top > 0) {
+        nav.style.backgroundColor = '#131416';
+    };
+});
