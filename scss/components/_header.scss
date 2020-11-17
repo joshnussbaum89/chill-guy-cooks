@@ -19,7 +19,6 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        margin: auto;
         text-align: center;
         color: $white;
     }
@@ -40,7 +39,6 @@
         cursor: pointer;
         width: 25px;
         transition: .2s;
-        // display: block;
         &:hover {
             fill: $text; // change to earthy green
         }

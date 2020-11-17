@@ -36,6 +36,37 @@
     }
 }
 
-.recipe {
-    font-weight: bold;
+.youtube {
+    position: relative;
+    background-image: url('../images/tree.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(95%);
+    height: 50vh;
+    &-overlay {
+        background-color: rgba(11, 13, 77, 0.4); // change to earthy green
+        height: 100%;
+        width: 100%;
+    }
+    &-text {
+        position: absolute;
+        color: $white;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        h2 {
+            width: 250px;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid $white;
+            
+        }
+        p {
+            margin: 2rem auto;
+            font-size: 1.2rem;
+            font-weight: 100;
+        }
+    }
 }

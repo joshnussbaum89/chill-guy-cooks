@@ -1,0 +1,23 @@
+/* ============================================= */
+/*              Featured                         */
+/* ============================================= */
+
+.featured {
+    margin: 0 2rem;
+    &-title {
+        width: 250px;
+        padding-bottom: 2rem;
+        border-bottom: 2px solid black;
+        margin: 4rem auto;
+        text-align: center;
+    }
+    &-description {
+        font-size: 1.3rem;
+        padding: 1rem 0;
+        text-align: center;
+    }
+}
+
+.recipe {
+    font-weight: bold;
+}

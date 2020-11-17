@@ -376,7 +376,39 @@ h6 {
 }
 
 /* ============================================= */
-/*              About                            */
+/*              about                            */
+/* ============================================= */
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+.recipe-button,
+.youtube-button {
+  font-size: 1rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  display: block;
+  padding: 1.5rem;
+  transition: 0.2s;
+  border-radius: 300px;
+  cursor: pointer;
+}
+
+.youtube-button {
+  margin: 2rem auto 1rem;
+  color: #fff;
+  background-color: inherit;
+  border: 2px solid #fff;
+  border-radius: 300px;
+  cursor: pointer;
+}
+.youtube-button:hover {
+  color: #131416;
+  border: 2px solid #fff;
+  background-color: #fff;
+}
+
+/* ============================================= */
+/*              Featured                         */
 /* ============================================= */
 .featured {
   margin: 0 2rem;
@@ -394,27 +426,8 @@ h6 {
   text-align: center;
 }
 
-/* ============================================= */
-/*              Buttons                          */
-/* ============================================= */
-.recipe-button {
-  font-size: 1rem;
-  font-weight: 200;
-  text-transform: uppercase;
-  display: block;
-  margin: 0 auto 4rem;
-  padding: 1.5rem;
-  color: #131416;
-  background-color: #fff;
-  border: 2px solid #131416;
-  border-radius: 300px;
-  transition: 0.2s;
-  cursor: pointer;
-}
-.recipe-button:hover {
-  color: #fff;
-  border: 2px solid #fff;
-  background-color: #131416;
+.recipe {
+  font-weight: bold;
 }
 
 /* ============================================= */
@@ -441,7 +454,6 @@ h6 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin: auto;
   text-align: center;
   color: #fff;
 }
@@ -506,8 +518,38 @@ h6 {
   box-shadow: 0 0 10px #131416;
 }
 
-.recipe {
-  font-weight: bold;
+.youtube {
+  position: relative;
+  background-image: url("../images/tree.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: opacity(95%);
+  height: 50vh;
+}
+.youtube-overlay {
+  background-color: rgba(11, 13, 77, 0.4);
+  height: 100%;
+  width: 100%;
+}
+.youtube-text {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.youtube-text h2 {
+  width: 250px;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #fff;
+}
+.youtube-text p {
+  margin: 2rem auto;
+  font-size: 1.2rem;
+  font-weight: 100;
 }
 
 /* ============================================= */
