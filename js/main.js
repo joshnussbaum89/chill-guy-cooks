@@ -3,6 +3,8 @@
 /* ============================================= */
 
 // Global variables 
+
+//document.querySelector('.featured').innerHTML = "<h1>pagination recipe #1</h1>"
 const main = document.getElementById("main");
 const nav = document.querySelector('.nav');
 const navMenu = document.querySelector('.nav-menu');

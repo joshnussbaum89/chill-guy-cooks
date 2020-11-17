@@ -383,6 +383,7 @@ h6 {
 /* ============================================= */
 .recipe-button,
 .youtube-button {
+  margin: 1rem auto 3rem;
   font-size: 1rem;
   font-weight: 200;
   text-transform: uppercase;
@@ -393,8 +394,18 @@ h6 {
   cursor: pointer;
 }
 
+.recipe-button {
+  background-color: #fff;
+  border: 2px solid #131416;
+  border-radius: 300px;
+}
+.recipe-button:hover {
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: #131416;
+}
+
 .youtube-button {
-  margin: 2rem auto 1rem;
   color: #fff;
   background-color: inherit;
   border: 2px solid #fff;
@@ -428,6 +439,44 @@ h6 {
 
 .recipe {
   font-weight: bold;
+}
+
+/* ============================================= */
+/*              Footer                           */
+/* ============================================= */
+.footer {
+  position: relative;
+  height: 25vh;
+  background-color: #131416;
+}
+.footer-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+.footer-info p {
+  padding-top: 1rem;
+}
+.footer-info span {
+  font-size: 0.7rem;
+  font-weight: 100;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+.icons-svg {
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 1rem;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  width: 25px;
+  fill: #fff;
 }
 
 /* ============================================= */
@@ -535,11 +584,11 @@ h6 {
 }
 .youtube-text {
   position: absolute;
-  color: #fff;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  color: #fff;
 }
 .youtube-text h2 {
   width: 250px;
