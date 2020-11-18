@@ -4,7 +4,7 @@
 
 .hero {
     background-image: url('../images/hero-background.jpg');
-    background-attachment: fixed;
+    //background-attachment: fixed; // THIS DOESN'T WORK ON SAFARI
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,22 +21,29 @@
 }
 
 .nav {
-    z-index: 100;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     height: .5rem;
     background-color: initial;
     @include flexy($just: space-between, $align: center);
-    align-self: flex-start;
     padding: 2rem;
     color: $white;
     transition: .2s;
     &-menu {
+        justify-self: center;
+        margin-right: 4rem;
         cursor: pointer;
         width: 25px;
         transition: .2s;
         &:hover {
-            fill: $text; // change to earthy green
+            fill: $earth-green; // change to earthy green
         }
+    }
+    &-title {
+        color: $white;
+    }
+    &-title:hover {
+        color: $white;
     }
 }

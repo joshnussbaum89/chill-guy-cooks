@@ -23,7 +23,8 @@ a {
     color: inherit;
     transition: .2s;
     &:hover {
-        color: $text; // change to earthy green
+        // color: #7ea37e;
+        color: $earth-green;
     }
 }
 

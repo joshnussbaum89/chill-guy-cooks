@@ -20,7 +20,7 @@
 }
 
 .icons {
-    @include flexy($just: center);
+    @include flexy($just: center, $align: center);
     &-svg {
         cursor: pointer;
         padding: 10px;

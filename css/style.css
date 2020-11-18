@@ -362,7 +362,7 @@ a {
   transition: 0.2s;
 }
 a:hover {
-  color: #51575b;
+  color: #758b72;
 }
 
 h1,
@@ -474,6 +474,7 @@ h6 {
 .icons {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .icons-svg {
   cursor: pointer;
@@ -493,7 +494,6 @@ h6 {
 /* ============================================= */
 .hero {
   background-image: url("../images/hero-background.jpg");
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -514,26 +514,33 @@ h6 {
 }
 
 .nav {
-  z-index: 100;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
   height: 0.5rem;
   background-color: initial;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  align-self: flex-start;
   padding: 2rem;
   color: #fff;
   transition: 0.2s;
 }
 .nav-menu {
+  justify-self: center;
+  margin-right: 4rem;
   cursor: pointer;
   width: 25px;
   transition: 0.2s;
 }
 .nav-menu:hover {
-  fill: #51575b;
+  fill: #758b72;
+}
+.nav-title {
+  color: #fff;
+}
+.nav-title:hover {
+  color: #fff;
 }
 
 /* ============================================= */
@@ -550,7 +557,6 @@ h6 {
   padding: 1rem 0;
 }
 .featured-img-pic a {
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -576,7 +582,6 @@ h6 {
 .youtube {
   position: relative;
   background-image: url("../images/tree.jpg");
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -613,6 +618,14 @@ h6 {
 .desktopnav {
   display: none;
 }
+.desktopnav a {
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+  transition: 0.3s;
+}
+.desktopnav a:hover {
+  border-bottom: 2px solid #758b72;
+}
 
 .sidenav {
   display: flex;
@@ -644,11 +657,8 @@ h6 {
   display: block;
   transition: 0.3s;
 }
-.sidenav a {
-  color: #51575b;
-}
 .sidenav a:hover {
-  color: #fff;
+  color: #758b72;
 }
 .sidenav .closebtn {
   position: absolute;
@@ -676,6 +686,7 @@ h6 {
 
   .desktopnav {
     display: flex;
+    margin-right: 4rem;
   }
   .desktopnav li {
     padding: 0 1rem;

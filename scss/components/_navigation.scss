@@ -4,6 +4,14 @@
 
 .desktopnav {
     display: none;
+    a {
+        padding-bottom: 1rem;
+        border-bottom: 2px solid rgba(255, 255, 255, 0);
+        transition: .3s;
+    }
+    a:hover {
+        border-bottom: 2px solid $earth-green;
+    }
 }
 
 // Mobile Navigation
@@ -34,11 +42,8 @@
         display: block;
         transition: 0.3s;
     }
-    a {
-        color: $text;
-        &:hover {
-            color: $white;
-        }
+    a:hover {
+        color: $earth-green;
     }
     .closebtn {
         position: absolute;

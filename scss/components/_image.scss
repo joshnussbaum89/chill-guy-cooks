@@ -11,11 +11,7 @@
     &-pic {
         padding: 1rem 0;
         a {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include flexy($dir: column, $just: center, $align: center);
         }
         .recipe {
             padding: 1rem;
@@ -35,11 +31,11 @@
         }
     }
 }
-
+    
 .youtube {
     position: relative;
     background-image: url('../images/tree.jpg');
-    background-attachment: fixed;
+    // background-attachment: fixed; // THIS DOESN'T WORK ON SAFARI
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
