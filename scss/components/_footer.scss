@@ -6,6 +6,7 @@
     position: relative;
     height: 25vh;
     background-color: $babish-black;
+    z-index: 0;
     &-info {
         @include absoluteCenter;
         color: $white;

@@ -39,6 +39,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1000;
     filter: opacity(95%);
     height: 50vh;
     &-overlay {
@@ -50,10 +51,10 @@
         @include absoluteCenter;
         color: $white;
         h2 {
-            width: 250px;
+            text-align: center;
+            max-width: 250px;
             padding-bottom: 2rem;
             border-bottom: 2px solid $white;
-            
         }
         p {
             margin: 2rem auto;

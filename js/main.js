@@ -11,18 +11,23 @@ const navMenu = document.querySelector('.nav-menu');
 const desktopNav = document.querySelector('.desktopnav');
 const mobileNav = document.querySelector('.sidenav');
 const closeBtn = document.querySelector('.closebtn');
+const footer = document.querySelector('#footer');
+const youtube = document.querySelector('.youtube');
 
 // Open Navigation
 function openNav() {
-    mobileNav.style.width = "75%";
-    mobileNav.style.margin = "0";
-    main.style.marginRight = "75%";
+    mobileNav.style.width = "100%";
+    main.style.marginRight = "100%";
+    footer.style.display = 'none';
+    youtube.style.display = 'none';
 }
 
 // Close Navigation
 function closeNav() {
     mobileNav.style.width = "0";
     main.style.marginRight = "0";
+    footer.style.display = 'block';
+    youtube.style.display = 'block';
 }
 
 // Open and close navigation based on user click
