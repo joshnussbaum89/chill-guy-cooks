@@ -381,31 +381,37 @@ h6 {
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
-.recipe-button,
+.recipe-div-button,
 .youtube-button {
-  margin: 1rem auto 3rem;
   font-size: 1rem;
   font-weight: 200;
   text-transform: uppercase;
-  display: block;
   padding: 1.5rem;
   transition: 0.2s;
   border-radius: 300px;
   cursor: pointer;
 }
 
-.recipe-button {
+.recipe-div {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto 3rem;
+}
+.recipe-div-button {
   background-color: #fff;
   border: 2px solid #131416;
   border-radius: 300px;
+  display: block;
+  margin: auto;
 }
-.recipe-button:hover {
+.recipe-div-button:hover {
   color: #fff;
   border: 2px solid #fff;
   background-color: #131416;
 }
 
 .youtube-button {
+  margin: 1rem auto 3rem;
   color: #fff;
   background-color: inherit;
   border: 2px solid #fff;

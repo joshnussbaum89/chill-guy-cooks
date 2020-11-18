@@ -2,31 +2,36 @@
 /*              Buttons                          */
 /* ============================================= */
 
-.recipe-button,
+.recipe-div-button,
 .youtube-button {
-    margin: 1rem auto 3rem;
     font-size: 1rem;
     font-weight: 200;
     text-transform: uppercase;
-    display: block;
     padding: 1.5rem;
     transition: .2s;
     border-radius: 300px;
     cursor: pointer;
 }
 
-.recipe-button {
-    background-color: $white;
-    border: 2px solid $babish-black;
-    border-radius: 300px;
-    &:hover {
-        color: $white;
-        border: 2px solid $white;
-        background-color: $babish-black;
+.recipe-div {
+    @include flexy($just: center);
+    margin: 1rem auto 3rem;
+    &-button {
+        background-color: $white;
+        border: 2px solid $babish-black;
+        border-radius: 300px;
+        display: block;
+        margin: auto;
+        &:hover {
+            color: $white;
+            border: 2px solid $white;
+            background-color: $babish-black;
+        }
     }
 }
 
 .youtube-button {
+    margin: 1rem auto 3rem;
     color: $white;
     background-color: inherit;
     border: 2px solid $white;
