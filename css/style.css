@@ -350,10 +350,10 @@ html {
 }
 
 body {
-  z-index: 0;
   margin: 0;
   padding: 0;
   background-color: #fff;
+  color: #131416;
 }
 
 a {
@@ -433,7 +433,7 @@ h6 {
 .featured-title {
   width: 250px;
   padding-bottom: 2rem;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #131416;
   margin: 4rem auto;
   text-align: center;
 }
@@ -452,9 +452,8 @@ h6 {
 /* ============================================= */
 .footer {
   position: relative;
-  height: 25vh;
+  height: 30vh;
   background-color: #131416;
-  z-index: 0;
 }
 .footer-info {
   position: absolute;
@@ -468,6 +467,7 @@ h6 {
   padding-top: 1rem;
 }
 .footer-info span {
+  color: #51575b;
   font-size: 0.7rem;
   font-weight: 100;
 }
@@ -483,8 +483,13 @@ h6 {
   margin: 0 1rem;
   border: 2px solid #fff;
   border-radius: 10px;
-  width: 25px;
+  width: 20px;
+  transition: 0.3s;
   fill: #fff;
+}
+.icons-svg:hover {
+  border: 2px solid #758b72;
+  fill: #758b72;
 }
 
 /* ============================================= */
@@ -526,6 +531,9 @@ h6 {
   padding: 2rem;
   color: #fff;
   transition: 0.2s;
+}
+.nav-logo {
+  width: 45px;
 }
 .nav-menu {
   justify-self: center;

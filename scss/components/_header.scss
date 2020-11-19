@@ -10,7 +10,7 @@
     background-size: cover;
     height: 100vh;
     &-overlay {
-        background-color: rgba(11, 13, 77, 0.4); // change to earthy green
+        background-color: $overlay;
         height: 100vh;
     }
     h1 {
@@ -30,6 +30,9 @@
     padding: 2rem;
     color: $white;
     transition: .2s;
+    &-logo {
+        width: 45px;
+    }
     &-menu {
         justify-self: center;
         margin-right: 4rem;
@@ -37,7 +40,7 @@
         width: 25px;
         transition: .2s;
         &:hover {
-            fill: $earth-green; // change to earthy green
+            fill: $earth-green;
         }
     }
     &-title {

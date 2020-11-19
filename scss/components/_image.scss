@@ -43,7 +43,7 @@
     filter: opacity(95%);
     height: 50vh;
     &-overlay {
-        background-color: rgba(11, 13, 77, 0.4); // change to earthy green
+        background-color: $overlay;
         height: 100%;
         width: 100%;
     }

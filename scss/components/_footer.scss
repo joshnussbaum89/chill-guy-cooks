@@ -4,9 +4,8 @@
 
 .footer {
     position: relative;
-    height: 25vh;
+    height: 30vh;
     background-color: $babish-black;
-    z-index: 0;
     &-info {
         @include absoluteCenter;
         color: $white;
@@ -14,6 +13,7 @@
             padding-top: 1rem;
         }
         span {
+            color: $text;
             font-size: .7rem;
             font-weight: 100;
         }
@@ -28,7 +28,12 @@
         margin: 0 1rem;
         border: 2px solid $white;
         border-radius: 10px;
-        width: 25px;
+        width: 20px;
+        transition: .3s;
         fill: $white;
+    }
+    &-svg:hover {
+        border: 2px solid $earth-green;
+        fill: $earth-green;
     }
 }
