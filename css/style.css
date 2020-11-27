@@ -350,10 +350,15 @@ html {
 }
 
 body {
+  letter-spacing: 0.02rem;
   margin: 0;
   padding: 0;
   background-color: #fff;
   color: #131416;
+}
+
+p {
+  line-height: 1.8rem;
 }
 
 a {
@@ -378,6 +383,22 @@ h6 {
 /* ============================================= */
 /*              about                            */
 /* ============================================= */
+.about {
+  margin: 2rem 2rem 4rem;
+  min-height: 580px;
+  height: 90%;
+}
+.about-image {
+  padding-top: 0.5rem;
+  margin: 0 1rem 1rem 0;
+  float: left;
+  width: 200px;
+}
+.about-description {
+  padding: 0;
+  margin: 0;
+}
+
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
@@ -721,6 +742,17 @@ h6 {
   .nav-menu {
     display: none;
   }
+
+  .about {
+    margin: 2rem 5rem 4rem;
+  }
+  .about-image {
+    margin: 0 1.5rem 1rem 0;
+    width: 250px;
+  }
+  .about-description {
+    font-size: 1.1rem;
+  }
 }
 @media (min-width: 992px) {
   .hero h1 {
@@ -733,6 +765,16 @@ h6 {
   .featured-img {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+  }
+
+  .about {
+    margin: 2rem 8rem 4rem;
+  }
+  .about-image {
+    width: 275px;
+  }
+  .about-description {
+    font-size: 1.2rem;
   }
 }
 

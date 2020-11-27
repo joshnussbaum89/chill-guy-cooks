@@ -46,7 +46,7 @@ window.addEventListener("resize", () => {
     if (window.innerWidth < 768) {
         navMenu.style.display = "block";
         desktopNav.style.display = "none";
-    } else if (window.innerWidth > 768) {
+    } else if (window.innerWidth >= 768) {
         navMenu.style.display = "none";
         desktopNav.style.display = "flex";
         closeNav();

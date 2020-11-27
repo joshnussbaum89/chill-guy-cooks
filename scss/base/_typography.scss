@@ -12,10 +12,15 @@ html {
 }
 
 body {
+    letter-spacing: .02rem;
     margin: 0;
     padding: 0;
     background-color: $white;
     color: $babish-black;
+}
+
+p {
+    line-height: 1.8rem;
 }
 
 a {

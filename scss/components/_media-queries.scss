@@ -25,6 +25,17 @@
         display: none;
     }
 
+    .about {
+        margin: 2rem 5rem 4rem;
+        &-image {
+            margin: 0 1.5rem 1rem 0;
+            width: 250px;
+        }
+        &-description {
+            font-size: 1.1rem;
+        }
+    }
+
 }
 
 @media (min-width: $lg){
@@ -38,6 +49,16 @@
         &-img {
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(2, 1fr);
+        }
+    }
+
+    .about {
+        margin: 2rem 8rem 4rem;
+        &-image {
+            width: 275px;
+        }
+        &-description {
+            font-size: 1.2rem;
         }
     }
     
