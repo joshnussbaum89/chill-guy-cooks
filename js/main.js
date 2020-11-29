@@ -8,6 +8,7 @@
 const main = document.getElementById("main");
 const nav = document.querySelector('.nav');
 const navMenu = document.querySelector('.nav-menu');
+const navLogo = document.querySelector('.nav-logo');
 const desktopNav = document.querySelector('.desktopnav');
 const mobileNav = document.querySelector('.sidenav');
 const closeBtn = document.querySelector('.closebtn');
@@ -20,6 +21,7 @@ function openNav() {
     main.style.marginRight = "100%";
     footer.style.display = 'none';
     youtube.style.display = 'none';
+    navLogo.style.display = 'none';
 }
 
 // Close Navigation
@@ -28,6 +30,8 @@ function closeNav() {
     main.style.marginRight = "0";
     footer.style.display = 'block';
     youtube.style.display = 'block';
+    navLogo.style.display = 'block';
+
 }
 
 // Open and close navigation based on user click

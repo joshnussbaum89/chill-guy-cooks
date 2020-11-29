@@ -30,7 +30,7 @@
     background-color: $babish-black;
     overflow-x: hidden;
     overflow-y: hidden;
-    transition: 0.2s;
+    transition: 0.2s ease;
     padding-top: 60px;
     li:first-child {
         display: block;
@@ -68,5 +68,5 @@
   }
   
   #main {
-    transition: margin-right .3s;
+    transition: .2s ease;
   }

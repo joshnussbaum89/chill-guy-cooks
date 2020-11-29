@@ -741,7 +741,7 @@ textarea:focus {
   background-color: #131416;
   overflow-x: hidden;
   overflow-y: hidden;
-  transition: 0.2s;
+  transition: 0.2s ease;
   padding-top: 60px;
 }
 .sidenav li:first-child {
@@ -779,7 +779,7 @@ textarea:focus {
 }
 
 #main {
-  transition: margin-right 0.3s;
+  transition: 0.2s ease;
 }
 
 /* ============================================= */
