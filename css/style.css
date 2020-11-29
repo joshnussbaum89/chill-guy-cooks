@@ -577,9 +577,6 @@ textarea:focus {
 }
 
 /* ============================================= */
-/*              Grid System                      */
-/* ============================================= */
-/* ============================================= */
 /*              Header                           */
 /* ============================================= */
 .hero {
@@ -786,15 +783,31 @@ textarea:focus {
 }
 
 /* ============================================= */
+/*              Recipes                          */
+/* ============================================= */
+.recipes {
+  margin: 0 2rem 4rem;
+}
+.recipes-img {
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  justify-items: center;
+}
+
+/* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
 @media (min-width: 768px) {
-  .featured {
+  .featured,
+.recipes {
     padding: 0 1rem;
   }
-  .featured-img {
+  .featured-img, .featured-img,
+.recipes-img,
+.recipes-img {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
   }
 
   .desktopnav {
@@ -826,12 +839,14 @@ textarea:focus {
     font-size: 6em;
   }
 
-  .featured {
+  .featured,
+.recipes {
     padding: 0 2rem;
   }
-  .featured-img {
+  .featured-img, .featured-img,
+.recipes-img,
+.recipes-img {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
   }
 
   .about {

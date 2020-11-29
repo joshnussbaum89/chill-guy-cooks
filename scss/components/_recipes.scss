@@ -1,0 +1,14 @@
+/* ============================================= */
+/*              Recipes                          */
+/* ============================================= */
+
+.recipes {
+    margin: 0 2rem 4rem;
+    &-img {
+        padding: 2rem 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        justify-items: center;
+    }
+}

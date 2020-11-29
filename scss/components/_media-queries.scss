@@ -4,11 +4,12 @@
 
 @media (min-width: $md) {
 
-    .featured {
+    .featured,
+    .recipes {
         padding: 0 1rem;
+        &-img,
         &-img {
             grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(3, 1fr);
         }
     }
 
@@ -44,11 +45,12 @@
         font-size: 6em;
     }
 
-    .featured {
+    .featured,
+    .recipes {
         padding: 0 2rem;
+        &-img,
         &-img {
             grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(2, 1fr);
         }
     }
 
