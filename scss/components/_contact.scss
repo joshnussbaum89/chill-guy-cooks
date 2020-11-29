@@ -1,0 +1,61 @@
+/* ============================================= */
+/*              Contact                          */
+/* ============================================= */
+
+#contact {
+    width: 100%;
+    text-align: center;
+    @include flexy($dir: column, $align: center);
+}
+
+.contact-form {
+    width: 70%;
+    max-width: 800px;
+    margin: auto;
+    legend {
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+    textarea {
+        height: 100px;
+        padding: 1rem;
+    }
+    button[type=submit] {
+        background-color: white;
+        border-radius: 5px;
+        border: 1px solid $babish-black;
+        margin: 1rem auto 4rem;
+        padding: 1rem;
+        width: 25%;
+        transition: .1s;
+        &:hover {
+            border-radius: 0px;
+            cursor: pointer;
+            box-shadow: 5px 5px 0 $babish-black;
+        }
+        &:active {
+            transform: translate(5px, 5px);
+            box-shadow: none;
+        }
+    }
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    color: $babish-black;
+    border: 1px solid $babish-black;
+    outline: none;
+    margin: 1rem 0;
+    height: 3rem;
+    padding: 0 1rem;
+    border-radius: 5px;
+    width: 90%;
+    transition: .2s;
+    &:focus,
+    &:focus,
+    &:focus {
+        border-radius: 0px;
+        box-shadow: 5px 5px 0 $babish-black;
+    }
+}
