@@ -37,15 +37,18 @@ function closeNav() {
     navLogo.style.display = 'block';
 }
 
-// Open and close navigation based on user click
-nav.addEventListener('click', (e) => {
-    if (e.target === navMenu) {
-        openNav();
-        navMenu.style.display = "none";
-    } else if (e.target === closeBtn) {
-        closeNav();
-        navMenu.style.display = "block";
-    }
+/*** EVENT LISTENERS ***/
+
+// Open navigation based on user click 
+navMenu.addEventListener('click', () => {
+    openNav();
+    navMenu.style.display = "none";
+});
+
+// Close navigation based on user click
+closeBtn.addEventListener('click', () => {
+    closeNav();
+    navMenu.style.display = "block";
 });
 
 // Close navigation based on window resize

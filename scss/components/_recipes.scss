@@ -4,11 +4,75 @@
 
 .recipes {
     margin: 0 2rem 4rem;
+    &-search {
+        color: $babish-black;
+        border: 1px solid $babish-black;
+        outline: none;
+        height: 3rem;
+        padding: 0 1rem;
+        display: block;
+        margin: 2rem auto;
+        border-radius: 5px;
+        width: 50%;
+        transition: .2s;
+        &:focus,
+        &:focus,
+        &:focus {
+            border-radius: 0px;
+            box-shadow: 5px 5px 0 $babish-black;
+        }
+    }
     &-img {
         padding: 2rem 0;
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 2rem;
         justify-items: center;
+    }
+}
+
+// Recipe overlay hover effect
+.recipe-container {
+    position: relative;
+}
+  
+.recipe-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: $overlay;
+    &-text {
+        color: $white;
+        font-size: 1.6rem;
+        @include absoluteCenter();
+    }
+}
+
+.recipe-container:hover .recipe-overlay {
+    opacity: 1;
+    box-shadow: 0 0 10px $babish-black;
+}
+
+.recipe-buttons {
+    @include flexy();
+}
+
+.recipe-button {
+    font-size: 1rem;
+    background-color: $white;
+    border: 1px solid $babish-black;
+    border-radius: 5px;
+    margin: 1rem 1rem 0;
+    padding: .5rem;
+    width: 90%;
+    transition: .2s;
+    cursor: pointer;
+    &:hover {
+        color: $white;
+        background-color: $babish-black;
     }
 }
