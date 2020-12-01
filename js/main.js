@@ -20,7 +20,9 @@ function openNav() {
     mobileNav.style.width = "100%";
     main.style.marginRight = "100%";
     footer.style.display = 'none';
-    youtube.style.display = 'none';
+    if (youtube) {
+        youtube.style.display = 'none';
+    }
     navLogo.style.display = 'none';
 }
 
@@ -29,9 +31,10 @@ function closeNav() {
     mobileNav.style.width = "0";
     main.style.marginRight = "0";
     footer.style.display = 'block';
-    youtube.style.display = 'block';
+    if (youtube) {
+        youtube.style.display = 'block';
+    }
     navLogo.style.display = 'block';
-
 }
 
 // Open and close navigation based on user click
