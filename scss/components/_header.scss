@@ -4,7 +4,7 @@
 
 .hero {
     background-image: url('../images/ramen.jpg');
-    background-attachment: fixed; // THIS DOESN'T WORK ON SAFARI
+    // background-attachment: fixed; // THIS DOESN'T WORK ON SAFARI
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,7 +22,7 @@
 
 .nav {
     position: fixed;
-    z-index: 1000;
+    z-index: 1000; 
     width: 100%;
     top: 0;
     height: .5rem;
