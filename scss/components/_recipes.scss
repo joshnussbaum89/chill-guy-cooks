@@ -42,7 +42,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    opacity: 0;
+    opacity: 1;
     transition: .3s ease;
     background-color: $overlay;
     &-text {
@@ -50,11 +50,6 @@
         font-size: 1.6rem;
         @include absoluteCenter();
     }
-}
-
-.recipe-container:hover .recipe-overlay {
-    opacity: 1;
-    box-shadow: 0 0 10px $babish-black;
 }
 
 .recipe-buttons {

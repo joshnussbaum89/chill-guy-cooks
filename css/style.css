@@ -580,7 +580,8 @@ textarea:focus {
 /*              Header                           */
 /* ============================================= */
 .hero {
-  background-image: url("../images/hero-background.jpg");
+  background-image: url("../images/ramen.jpg");
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -819,7 +820,7 @@ textarea:focus {
   bottom: 0;
   left: 0;
   right: 0;
-  opacity: 0;
+  opacity: 1;
   transition: 0.3s ease;
   background-color: rgba(11, 13, 77, 0.4);
 }
@@ -831,11 +832,6 @@ textarea:focus {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-}
-
-.recipe-container:hover .recipe-overlay {
-  opacity: 1;
-  box-shadow: 0 0 10px #131416;
 }
 
 .recipe-buttons {
@@ -919,6 +915,15 @@ textarea:focus {
   }
   .about-description {
     font-size: 1.2rem;
+  }
+
+  .recipe-overlay {
+    opacity: 0;
+  }
+
+  .recipe-container:hover .recipe-overlay {
+    opacity: 1;
+    box-shadow: 0 0 10px #131416;
   }
 }
 

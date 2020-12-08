@@ -63,5 +63,14 @@
             font-size: 1.2rem;
         }
     }
+
+    .recipe-overlay {
+        opacity: 0;
+    }
+
+    .recipe-container:hover .recipe-overlay {
+        opacity: 1;
+        box-shadow: 0 0 10px $babish-black;
+    }
     
 }
