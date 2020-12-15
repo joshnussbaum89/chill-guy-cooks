@@ -8,6 +8,7 @@ const closeBtn = document.querySelector('.closebtn');
 const footer = document.querySelector('#footer');
 const youtube = document.querySelector('.youtube');
 const recipesSearch = document.querySelector('.recipes-search');
+const recipeButton = document.querySelectorAll('.recipe-button');
 
 
 /* ============================================= */
@@ -77,6 +78,27 @@ function searchRecipes() {
     });
 }
 
+// Display recipe to recipe.html without changing to a new page
+function displayRecipe(e) {
+    const dataIndex = e.target.getAttribute('data-index');
+    // Change header picture to thumbnail of recipe clicked
+    const hero = document.querySelector('.hero');
+    const heroTitle = hero.firstElementChild.firstElementChild;
+    hero.style.backgroundImage = `url(${recipes[dataIndex].image})`;
+    heroTitle.innerHTML = `${recipes[dataIndex].name}`;
+
+    // Create HTML for recipe based on which recipe was clicked
+    const recipesDiv = document.querySelector('.recipes');
+
+    // Change classes and create a recipe-desc sass component
+    recipesDiv.innerHTML = `
+            <h2 class="featured-recipe-title">${recipes[dataIndex].name}</h2>
+            <p class="featured-recipe-description">${recipes[dataIndex].ingredients}</p>
+            <p class="featured-recipe-description">${recipes[dataIndex].description}</p>
+            <input class="go-back" type="button" value="Go Back" onClick="window.location.reload()">
+        `;
+}
+
 
 /* ============================================= */
 /*              Event Listeners                  */
@@ -93,3 +115,26 @@ window.addEventListener('scroll', blackNavOnScroll);
 if (recipesSearch) {
     recipesSearch.addEventListener('keyup', searchRecipes);
 }
+recipeButton.forEach((button) => {
+    button.addEventListener('click', displayRecipe);
+})
+
+
+
+
+// //USE THIS TO STYLE RECIPE 
+// const hero = document.querySelector('.hero');
+// const heroTitle = hero.firstElementChild.firstElementChild;
+// hero.style.backgroundImage = `url(${recipes[0].image})`;
+// heroTitle.innerHTML = `${recipes[0].name}`;
+
+// // Create HTML for recipe based on which recipe was clicked
+// const recipesDiv = document.querySelector('.recipes');
+
+// // Change classes and create a recipe-desc sass component
+// recipesDiv.innerHTML = `
+//         <h2 class="featured-recipe-title">${recipes[0].name}</h2>
+//         <p class="featured-recipe-description">${recipes[0].ingredients}</p>
+//         <p class="featured-recipe-description">${recipes[0].description}</p>
+//         <input class="go-back" type="button" value="Go Back" onClick="window.location.reload()">
+//     `;

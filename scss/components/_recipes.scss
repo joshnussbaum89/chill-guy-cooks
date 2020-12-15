@@ -4,6 +4,11 @@
 
 .recipes {
     margin: 0 2rem 4rem;
+    ul {
+        float: left;
+        width: 25%;
+        margin-right: 3rem;
+    }
     &-search {
         color: $babish-black;
         border: 1px solid $babish-black;
