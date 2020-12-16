@@ -118,23 +118,3 @@ if (recipesSearch) {
 recipeButton.forEach((button) => {
     button.addEventListener('click', displayRecipe);
 })
-
-
-
-
-// //USE THIS TO STYLE RECIPE 
-// const hero = document.querySelector('.hero');
-// const heroTitle = hero.firstElementChild.firstElementChild;
-// hero.style.backgroundImage = `url(${recipes[0].image})`;
-// heroTitle.innerHTML = `${recipes[0].name}`;
-
-// // Create HTML for recipe based on which recipe was clicked
-// const recipesDiv = document.querySelector('.recipes');
-
-// // Change classes and create a recipe-desc sass component
-// recipesDiv.innerHTML = `
-//         <h2 class="featured-recipe-title">${recipes[0].name}</h2>
-//         <p class="featured-recipe-description">${recipes[0].ingredients}</p>
-//         <p class="featured-recipe-description">${recipes[0].description}</p>
-//         <input class="go-back" type="button" value="Go Back" onClick="window.location.reload()">
-//     `;
