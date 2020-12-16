@@ -787,6 +787,12 @@ textarea:focus {
   text-align: center;
 }
 
+.featured-recipe-ingredients {
+  padding: 1rem;
+  list-style-type: circle;
+  color: #51575b;
+}
+
 .featured-recipe-description {
   font-size: 1.2rem;
   padding: 1rem 0;
@@ -804,8 +810,6 @@ textarea:focus {
   background-color: #fff;
   border: 2px solid #131416;
   border-radius: 300px;
-  display: block;
-  margin-left: auto;
 }
 .go-back:hover {
   color: #fff;
@@ -818,11 +822,6 @@ textarea:focus {
 /* ============================================= */
 .recipes {
   margin: 0 2rem 4rem;
-}
-.recipes ul {
-  float: left;
-  width: 25%;
-  margin-right: 3rem;
 }
 .recipes-search {
   color: #131416;
@@ -906,6 +905,12 @@ textarea:focus {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .featured-recipe-ingredients {
+    float: left;
+    width: 25%;
+    margin-right: 3rem;
+  }
+
   .desktopnav {
     display: flex;
     margin-right: 4rem;
@@ -913,6 +918,11 @@ textarea:focus {
   .desktopnav li {
     padding: 0 1rem;
     list-style: none;
+  }
+
+  .go-back {
+    display: block;
+    margin-left: auto;
   }
 
   .nav-menu {

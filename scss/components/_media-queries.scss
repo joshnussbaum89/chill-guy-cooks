@@ -13,6 +13,12 @@
         }
     }
 
+    .featured-recipe-ingredients {
+        float: left;
+        width: 25%;
+        margin-right: 3rem;
+    }  
+
     .desktopnav {
         @include flexy();
         margin-right: 4rem;
@@ -20,6 +26,11 @@
             padding: 0 1rem;
             list-style: none;
         }
+    }
+
+    .go-back {
+        display: block;
+        margin-left: auto;
     }
 
     .nav-menu {

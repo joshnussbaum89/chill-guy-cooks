@@ -6,6 +6,12 @@
     text-align: center;
 }
 
+.featured-recipe-ingredients {
+    padding: 1rem;
+    list-style-type: circle;
+    color: $text;
+}
+
 .featured-recipe-description {
     font-size: 1.2rem;
     padding: 1rem 0;
@@ -23,8 +29,6 @@
     background-color: $white;
     border: 2px solid $babish-black;
     border-radius: 300px;
-    display: block;
-    margin-left: auto;
     &:hover {
         color: $white;
         border: 2px solid $white;

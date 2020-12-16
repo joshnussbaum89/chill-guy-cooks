@@ -93,7 +93,7 @@ function displayRecipe(e) {
     // Change classes and create a recipe-desc sass component
     recipesDiv.innerHTML = `
             <h2 class="featured-recipe-title">${recipes[dataIndex].name}</h2>
-            <p class="featured-recipe-description">${recipes[dataIndex].ingredients}</p>
+            <ul class="featured-recipe-ingredients">${recipes[dataIndex].ingredients}</ul>
             <p class="featured-recipe-description">${recipes[dataIndex].description}</p>
             <input class="go-back" type="button" value="Go Back" onClick="window.location.reload()">
         `;
