@@ -73,48 +73,48 @@ const recipes = [
         ingredients: "<li>Peach</li><li>balsamic vinegar</li><li>brown sugar</li><li>ginger powder</li><li>cinnamon</li><li>white pep</li><li>coriander</li><li>1 tbsp olive oil</li><li>1 1/4 cup pomegranate juice</li><li>1 tbsp lemon juice</li><li>1 tbsp dijon mustard</li><li>watercress</li><li>cherry tomatoes</li><li>almonds</li><li>chiffonade basil</li><li>brie, goat or blue cheese</li>",
         description: "Peach marinade: Run your knife around the Peach and twist it until it splits. Push out the seed. In a bowl, combine 3 tbsp balsamic vinegar, a pinch each of brown sugar, ginger powder, cinnamon, white pep, coriander, and 1 tbsp olive oil. Let rest in the fridge for a few hours. Get a nice hot non stick pan on. Place your peach skin side up and dump the marinade in the pan. Sear for 30 seconds and throw it into a 350 degree oven for about 10 minutes. <br><br>Dressing: In a blender combine 1/4 cup balsamic vinegar, 1/4 cup pomegranate juice, 1 tbsp lemon juice, 1 tbsp dijon mustard, 1 tsp brown sugar, pinch of salt and white pep. Drizzle about 1 1/4 cup oil in slowly until it emulsifies. <br><br>In a bowl mix a handful of watercress with some of the dressing. Place on a plate with some cherry tomatoes, almonds, chiffonade basil, and add the peach. Some brie, goat, or blue cheese would go great on this as well."
     },
+    {
+        name: "Pizza Dough",
+        image: "../images/pizza.jpg",
+        ingredients: "<li>2 cups AP or bread flour</li><li>1 tbsp salt</li><li>1 tbsp yeast</li><li>1 tbsp sugar</li><li>2 tbsp olive oil</li><li>about 1 cup of filtered water</li>",
+        description: "Combine all ingredients, form a shaggy ball, and knead for 10 minutes. Coat the bottom of a bowl with olive oil and place the dough inside. Cover the bowl with plastic wrap and let ferment at room temperature for 24 hours."
+    },
+    {
+        name: "Duck Confit",
+        image: "../images/duck-confit.jpg",
+        ingredients: "<li>salt</li><li>white pep</li><li>orange rind</li><li>garlic</li><li>thyme</li><li>oregano</li><li>rosemary</li><li>sage</li><li>tri colored potatoes</li><li>brussels sprouts</li><li>parsley leaves</li>",
+        description: "Make a rough mixture of course salt, orange rind, garlic, thyme, oregano, rosemary, and sage. Generously apply mixture to duck legs on all sides, cover, and refrigerate overnight. Remove the salt mixture with a paper towel. Place in a pan and cover completely with duck fat. Cover and bake in a 225 degree oven for 3 hours, then let sit with the cover on at room temp for another hour. Refrigerate and the fat will solidify. Get some of those little tri colored potatoes and cook until tender in duck fat with half a head of garlic and rosemary. Remove fat carefully from the leg. Put a drop of duck fat in a hot pan and sear on both sides. Put in a 350 oven to heat through. Blanch some brussels sprouts in water and chill in an ice bath. Sear brussels in a cast iron pan, season the Brussels with salt and white pep. Place the duck leg in the center of a plate and decorate with the confit potatoes, brussels, and parsley leaves."
+    },
+    {
+        name: "Dried Spicy Mango",
+        image: "../images/dried-spicy-mango.jpg",
+        ingredients: "<li>mango</li><li>cayenne pepper</li><li>ginger powder</li><li>coriander</li>",
+        description: "Slice the skin off of one mango. Find the seed and run your knife along it. Do that on all sides then cut into slices. Toss with a generous amount of cayenne pepper, ginger powder, and coriander. Place in a dehydrator for 18-24 hours on 135. Enjoy."
+    },
+    {
+        name: "Veggie Ramen",
+        image: "../images/ramen.jpg",
+        ingredients: "<li>1 egg</li><li>splash of white vinegar</li><li>4 tbsp soy sauce</li><li>1 tbsp mirin</li><li>1 tbsp rice wine vinegar</li><li>2 celery stalks</li><li>3 Korean chives</li><li>1 habanero</li><li>4 cloves of garlic</li><li>knob of ginger</li><li>1/4 onion</li><li>1 lime</li><li>a few leaves of lemon balm</li><li>a stalk of lemongrass</li><li>enoki mushrooms</li><li>ramen noodles</li>",
+        description: "For the egg: Pour about 3 cups of water in a small pot and bring to simmer not a boil. Put a splash of white vinegar in the water along with a pinch of salt. Cook for 6-7 minutes, chill in an ice bath, and peel. In a ziplock bag combine the egg, soy sauce, mirin, and rice wine vinegar. Let that go overnight in the fridge. <br><br>For the veggie stock: rough chop celery, chives, habanero, garlic, ginger, lemongrass and onion. Sweat the ginger first then go in with onion, garlic, celery, chives, habanero. Add enough water to cover with a splash of white wine vinegar. Bring to a boil and add in the lemon balm. Simmer for an hour and a half then strain. <br><br>To finish: Cook your ramen noodles for 5 minutes and strain. Add your noodles to your bowl, add the stock to cover, cut your egg in half and add the bowl. Garnish with enoki mushrooms, alfalfa sprouts, lemon balm, and borage flower."
+    },
+    {
+        name: "Vegan Spring Rolls",
+        image: "../images/vegan-spring-roll.jpg",
+        ingredients: "<li>firm tofu</li><li>ponzu sauce</li><li>ginger</li><li>garlic</li><li>chili</li><li>half a carrot</li><li>half a cucumber</li><li>one scallion</li><li>red chili</li><li>half a jalapeño</li><li>nori</li><li>rice noodles</li><li>sesame oil</li><li>2 tbsp peanut butter</li><li>2 tbsp soy sauce</li><li>2 tbsp coconut milk</li><li>spring roll wrappers</li>",
+        description: "Start with a julienne cut of half a block of firm tofu. Marinate overnight with ponzu sauce, ginger, garlic, and chili. Julienne half a carrot, half a cucumber, and one scallion. Circle cut 1/2 of a red chili, half of a jalapeño, and dice some nori. Cook some rice noodles, preferably vermicelli, and rinse under cold water. Add a touch of sesame oil to the noodles when drained so they don’t stick. Now, make your sauce with roughly 2 tbsp each peanut butter, soy sauce, and coconut milk. Add to a blender and blast it on high. Now get some spring roll wrappers and place them in a bowl of cold water for about 30 seconds. Spread that out on a cutting board and assemble your roll. Start with the noodles then the tofu. Throw all of the julienned veggies in with the nori and roll that up!"
+    },
+    {
+        name: "Duck Fried Rice",
+        image: "../images/duck-fried-rice.jpg",
+        ingredients: "<li>salt</li><li>white pep</li><li>5 spice</li><li>1 tbsp lemongrass</li><li>1 tbsp garlic</li><li>1 tbsp ginger</li><li>1 tbsp chili</li><li>a handful of swiss chard</li><li>2 tbsp soy sauce</li><li>rice</li><li>enoki mushroom</li><li>2 eggs</li><li>1 tbsp half & half</li><li>scallion</li><li>alfalfa sprouts</li>",
+        description: "Sauté scraps from the carcass with salt and 5 spice. Add one tbsp each of lemongrass, garlic, ginger, chili, and a handful swiss chard. Add 2 tbsp of soy sauce. Cook thoroughly then add rice. Divide rice mixture and add a handful of enoki mushroom with a drop of soy on top. Remove mushrooms and transfer rice into a cup. Now make a French omelette with 2 eggs, 1 tbsp half & half, pinch of salt, and a pinch of white pepper. Serve with scallion, enoki mushrooms and alfalfa sprouts."
+    },
     // ADD THE REST OF THE RECIPES //
     {
-        name: "Falafel",
-        image: "../images/falafel.jpg",
-        ingredients: "<ul><li>1 cup dried chickpeas soaked in water overnight</li><li>1 scallion<li>nice big handful of curly parsley</li></li><li>1 tbsp baking powder</li><li>pinch of salt</li><li>1 tbsp cumin</li><li>1 tbsp coriander</li><li>2 tbsp garlic</li><li>1 tbsp ginger</li><li>1/4 onion</li><li>1 lemon</li><li>2 tbsp chili pepper</li><li>pinch of salt</li><li>1 tsp white pep</li></ul>",
-        description: "Blast everything in a food processor. Scrape the sides and blast again. Form balls to your desired size and place on a tray. Put the balls into the fridge to set for an hour. Now just fry in a neutral oil until golden brown. <br><br>Yogurt sauce: Combine 3 tbsp dairy free yogurt, pinch of salt, white pep, and coriander, and about a tbsp of lemon juice. Mix that up. <br><br>To finish: Assemble a homemade pita bread, celery root hummus, alfalfa sprouts, pickled green tomato, falafel, yogurt sauce, chill guy hot sauce, and pickled red cabbage."
-    },
-    {
-        name: "Falafel",
-        image: "../images/falafel.jpg",
-        ingredients: "<ul><li>1 cup dried chickpeas soaked in water overnight</li><li>1 scallion<li>nice big handful of curly parsley</li></li><li>1 tbsp baking powder</li><li>pinch of salt</li><li>1 tbsp cumin</li><li>1 tbsp coriander</li><li>2 tbsp garlic</li><li>1 tbsp ginger</li><li>1/4 onion</li><li>1 lemon</li><li>2 tbsp chili pepper</li><li>pinch of salt</li><li>1 tsp white pep</li></ul>",
-        description: "Blast everything in a food processor. Scrape the sides and blast again. Form balls to your desired size and place on a tray. Put the balls into the fridge to set for an hour. Now just fry in a neutral oil until golden brown. <br><br>Yogurt sauce: Combine 3 tbsp dairy free yogurt, pinch of salt, white pep, and coriander, and about a tbsp of lemon juice. Mix that up. <br><br>To finish: Assemble a homemade pita bread, celery root hummus, alfalfa sprouts, pickled green tomato, falafel, yogurt sauce, chill guy hot sauce, and pickled red cabbage."
-    },
-    {
-        name: "Falafel",
-        image: "../images/falafel.jpg",
-        ingredients: "<ul><li>1 cup dried chickpeas soaked in water overnight</li><li>1 scallion<li>nice big handful of curly parsley</li></li><li>1 tbsp baking powder</li><li>pinch of salt</li><li>1 tbsp cumin</li><li>1 tbsp coriander</li><li>2 tbsp garlic</li><li>1 tbsp ginger</li><li>1/4 onion</li><li>1 lemon</li><li>2 tbsp chili pepper</li><li>pinch of salt</li><li>1 tsp white pep</li></ul>",
-        description: "Blast everything in a food processor. Scrape the sides and blast again. Form balls to your desired size and place on a tray. Put the balls into the fridge to set for an hour. Now just fry in a neutral oil until golden brown. <br><br>Yogurt sauce: Combine 3 tbsp dairy free yogurt, pinch of salt, white pep, and coriander, and about a tbsp of lemon juice. Mix that up. <br><br>To finish: Assemble a homemade pita bread, celery root hummus, alfalfa sprouts, pickled green tomato, falafel, yogurt sauce, chill guy hot sauce, and pickled red cabbage."
-    },
-    {
-        name: "Falafel",
-        image: "../images/falafel.jpg",
-        ingredients: "<ul><li>1 cup dried chickpeas soaked in water overnight</li><li>1 scallion<li>nice big handful of curly parsley</li></li><li>1 tbsp baking powder</li><li>pinch of salt</li><li>1 tbsp cumin</li><li>1 tbsp coriander</li><li>2 tbsp garlic</li><li>1 tbsp ginger</li><li>1/4 onion</li><li>1 lemon</li><li>2 tbsp chili pepper</li><li>pinch of salt</li><li>1 tsp white pep</li></ul>",
-        description: "Blast everything in a food processor. Scrape the sides and blast again. Form balls to your desired size and place on a tray. Put the balls into the fridge to set for an hour. Now just fry in a neutral oil until golden brown. <br><br>Yogurt sauce: Combine 3 tbsp dairy free yogurt, pinch of salt, white pep, and coriander, and about a tbsp of lemon juice. Mix that up. <br><br>To finish: Assemble a homemade pita bread, celery root hummus, alfalfa sprouts, pickled green tomato, falafel, yogurt sauce, chill guy hot sauce, and pickled red cabbage."
-    },
-    {
-        name: "Falafel",
-        image: "../images/falafel.jpg",
-        ingredients: "<ul><li>1 cup dried chickpeas soaked in water overnight</li><li>1 scallion<li>nice big handful of curly parsley</li></li><li>1 tbsp baking powder</li><li>pinch of salt</li><li>1 tbsp cumin</li><li>1 tbsp coriander</li><li>2 tbsp garlic</li><li>1 tbsp ginger</li><li>1/4 onion</li><li>1 lemon</li><li>2 tbsp chili pepper</li><li>pinch of salt</li><li>1 tsp white pep</li></ul>",
-        description: "Blast everything in a food processor. Scrape the sides and blast again. Form balls to your desired size and place on a tray. Put the balls into the fridge to set for an hour. Now just fry in a neutral oil until golden brown. <br><br>Yogurt sauce: Combine 3 tbsp dairy free yogurt, pinch of salt, white pep, and coriander, and about a tbsp of lemon juice. Mix that up. <br><br>To finish: Assemble a homemade pita bread, celery root hummus, alfalfa sprouts, pickled green tomato, falafel, yogurt sauce, chill guy hot sauce, and pickled red cabbage."
-    },
-    {
-        name: "Falafel",
-        image: "../images/falafel.jpg",
-        ingredients: "<ul><li>1 cup dried chickpeas soaked in water overnight</li><li>1 scallion<li>nice big handful of curly parsley</li></li><li>1 tbsp baking powder</li><li>pinch of salt</li><li>1 tbsp cumin</li><li>1 tbsp coriander</li><li>2 tbsp garlic</li><li>1 tbsp ginger</li><li>1/4 onion</li><li>1 lemon</li><li>2 tbsp chili pepper</li><li>pinch of salt</li><li>1 tsp white pep</li></ul>",
-        description: "Blast everything in a food processor. Scrape the sides and blast again. Form balls to your desired size and place on a tray. Put the balls into the fridge to set for an hour. Now just fry in a neutral oil until golden brown. <br><br>Yogurt sauce: Combine 3 tbsp dairy free yogurt, pinch of salt, white pep, and coriander, and about a tbsp of lemon juice. Mix that up. <br><br>To finish: Assemble a homemade pita bread, celery root hummus, alfalfa sprouts, pickled green tomato, falafel, yogurt sauce, chill guy hot sauce, and pickled red cabbage."
-    },
-    {
-        name: "Falafel",
-        image: "../images/falafel.jpg",
-        ingredients: "<ul><li>1 cup dried chickpeas soaked in water overnight</li><li>1 scallion<li>nice big handful of curly parsley</li></li><li>1 tbsp baking powder</li><li>pinch of salt</li><li>1 tbsp cumin</li><li>1 tbsp coriander</li><li>2 tbsp garlic</li><li>1 tbsp ginger</li><li>1/4 onion</li><li>1 lemon</li><li>2 tbsp chili pepper</li><li>pinch of salt</li><li>1 tsp white pep</li></ul>",
-        description: "Blast everything in a food processor. Scrape the sides and blast again. Form balls to your desired size and place on a tray. Put the balls into the fridge to set for an hour. Now just fry in a neutral oil until golden brown. <br><br>Yogurt sauce: Combine 3 tbsp dairy free yogurt, pinch of salt, white pep, and coriander, and about a tbsp of lemon juice. Mix that up. <br><br>To finish: Assemble a homemade pita bread, celery root hummus, alfalfa sprouts, pickled green tomato, falafel, yogurt sauce, chill guy hot sauce, and pickled red cabbage."
+        name: "Lentil Stuffed Cabbage",
+        image: "../images/lentils-and-cabbage.jpg",
+        ingredients: "<li>half an onion</li><li>8 cloves of garlic</li><li>2 tbsp ginger</li><li>1 1/2 cup brown lentils</li><li>1 tbsp dried thyme</li><li>1 tbsp curry powder</li><li>2 tbsp soy sauce</li><li>2 Napa cabbage leaves</li><li>1 tsp white pep</li><li>1 tbsp cumin</li><li>1 tbsp red crushed pep</li><li>pinch of saffron</li><li>3 medium tomatoes</li><li>2 tsp red wine vinegar</li>",
+        description: "For the lentils: Medium dice 1/4 onion and sweat it in some olive oil. Once sweated add 4 cloves of garlic and about 2 tbsp of chopped ginger. Sauce for a few minutes and add your lentils. Mix that up for about one minute. Now add half a tbsp of dried thyme, curry powder, and pinch of salt. Cover with boiling water, just enough to cover. Now simmer that for about 30 minutes, and mix often. Once most of the liquid is reduced it should be down. Finish with some soy sauce and white pep to taste. <br><br>For the Spicy tomato sauce: Rough chop and sweat the rest of the onion in some olive oil. Then add 4 cloves of garlic and sweat that down. Now spice it up with some white pep, 1/2 tbsp dried thyme, cumin, red crushed pep, and saffron. Incorporate the spices and rough chop tomatoes and add that to the pot. Add red wine vinegar and simmer for about 25-30 minutes on low heat. Finish by blasting it with an emulsion blender or regular blender. <br><br>For the Cabbage: Boil a small pot of water and submerge cabbage leaves until soft (about 2 minutes). Immediately transfer to an ice bath to stop the cooking. <br><br>To finish: Pull out your cabbage leaves and ladle some lentils at the bottom section of the leaf. Roll it up tight and put them on a sheet tray with parchment paper. Bake on 350 for 10 minutes. Ladle some sauce on the bottom of a bowl, place in your cabbage in a neat manner, and garnish with some scallion and borage flower."
     },
     {
         name: "Falafel",
