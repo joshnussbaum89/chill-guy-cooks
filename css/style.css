@@ -666,7 +666,6 @@ textarea:focus {
 .featured-img-pic img {
   width: 100%;
   max-width: 500px;
-  height: 100%;
   max-height: 500px;
   transition: 0.3s;
 }
