@@ -204,6 +204,6 @@ const recipes = [
         image: "../images/venison.jpg",
         ingredients: "<li>venison filet</li><li>1 1/2 red wine</li><li>olive oil</li><li>thyme</li><li>garlic</li><li>salt</li><li>pepper</li><li>carrot</li><li>potato</li><li>butter</li><li>shallot</li><li>oyster mushrooms</li>",
         description: "I made this staying at an airbnb in the Catskill mountains using some incredible local products. Start by marinating the venison filet. Add about a cup and a half of red wine to a hot pan and flambe the alcohol off and cook for 2-3 minutes. Let cool and pour over the filet. Add some olive oil, thyme, garlic, salt and pep. Let marinate overnight. The next day, slice some carrot and potato into circles, toss with olive oil, thyme, salt and pep. Lay some parchment paper on a sheet tray, spread them out and bake for 30 minutes on 350. Pull out venison and allow it to get to room temp. Add olive oil and a chunk of butter to a pan. Wait till the butter sizzles and add the filet. Get a nice sear and flip it. Now add some of the thyme and garlic from the marinade and start to baste it for 2 minutes. Let it go for about another 2 minutes and it should be around medium rare. Remove from the pan and let it rest for 5 minutes and start your sauce. Using the same pan, add some shallot and oyster mushrooms. Saute for 2 minutes and add enough red wine and leftover marinade to cover and reduce by half. Now, kill the heat and add another chunk of butter and mix till it dissolves. Slice your steak against the grain and plate."
-    }
-
+    },
+    // ADD REMAINING RECIPES 
 ]
