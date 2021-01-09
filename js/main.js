@@ -81,7 +81,7 @@ function searchRecipes() {
 // Display recipe to recipe.html without changing to a new page
 function displayRecipe(e) {
     const dataIndex = e.target.getAttribute('data-index');
-    console.log(dataIndex)
+
     // Change header picture to thumbnail of recipe clicked
     const hero = document.querySelector('.hero');
     const heroTitle = hero.firstElementChild.firstElementChild;
