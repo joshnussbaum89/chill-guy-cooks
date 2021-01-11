@@ -231,21 +231,33 @@ const recipes = [
     },
     {
         name: "Lamb with Cherry Reduction and Celery Root Pureé",
-        image: "../images/lamb.png",
+        image: "../images/lamb.jpg",
         ingredients: "<li>1 rack of lamb</li><li>1 cup red wine of your choice</li><li>some sprigs of rosemary</li><li>4 cloves garlic</li><li>half a shallot</li><li>1/2 cup beef or lamb stock</li><li>1 cup pitted cherries blended and strained, or cherry juice</li><li>6 oz butter</li><li>1 celery root</li><li>salt</li><li>white pepper</li>",
         description: "I made this when I realized I had a cherry tree in my backyard. If you can’t find celery root, I like roasting potatoes with Morrocan seasoning. <br><br>Clean your lamb rack by cutting off the cap of fat. Then “french” the fat in between the ribs. <br><br>For the marinade: Add red wine to a pot and bring to a boil then simmer and reduce by more than half. This will cook off the alcohol so it doesn’t break down the lamb. Let cool and pour over your clean lamb rack in a container. Add some sprigs of rosemary and 4 smashed garlic cloves. Throw it in your fridge over night. The next day start by cutting the top and bottom off the celery root. Get some foil and put a small sprinkle of salt down with the rosemary. Place the celery root on top of the herb salt and do the same on the top. Cook for 2 1/2 hours on 350 or until tender with a knife. While that is cooling, make your sauce. Dice shallot and combine with the wine marinade. Reduce wine by half, add stock, reduce that by half, add cherry juice, reduce that by half. Take off heat and stir in butter. Adjust seasoning. Now unwrap your celery root and trim the skin. Cut into small dice and add to a blender with 2 oz of butter and seasoning. You may need a dash of water to get it going. Cut your individual lamb chops. I like to grill the lamb over charcoal but a grill is cool. Cook to your liking and serve with the pureé swooped on the plate, criss cross the chops, give it some sauce, and garnish with cherries, mint, and parsley."
     },
     {
-        name: "Sesame Noodles",
-        image: "../images/sesame-noodles.jpg",
-        ingredients: "<li>2 cloves black garlic</li><li>small handful dried oyster mushrooms</li><li>1 jalapeño</li><li>1 fresno chili</li><li>2 scallion</li><li>small handful diced and peeled ginger</li><li>1 tbsp soy sauce</li><li>1 tbsp ponzu</li><li>1 tbsp sesame oil</li><li>1 tbsp rice wine vinegar</li><li>1 tbsp sesame seed</li><li>1 tbsp sugar</li><li>noodles of your choice</li>",
-        description: "This is an extremely easy dish that I make all the time. Saute black garlic, mushrooms, half the jalapeño, half the Fresno, the green part of the scallions, and ginger all at once. Once everyone is happy add the liquids. I just eyeball it but it's probably about a tbsp each. Reduce that by half and add some cooked noodles to the pan, along with a splash of the pasta water. Mix it up and serve. Garnish with the other half of peppers, toasted sesame seeds, and the white part of the scallion."
+        name: "Ginger Beer",
+        image: "../images/ginger-beer.jpg",
+        ingredients: "<li>water</li><li>sugar</li><li>ginger</li><li>ginger tea</li>",
+        description: "Pour 2 cups of water in a glass mason jar. Add 2 tbsp of sugar in the jar along with 2 tbsp of grated ginger with the skin on. Mix and leave out at room temperature with a loose lid or cheese cloth. 24 hours later add 2 tbsp grated ginger with skin and 2 tbsp sugar. Repeat this process for 4-7 days or until you see bubbles at the top of the water and a change in color. Now, brew a batch of ginger tea with a big handful of fresh skin on ginger, sugar, and 2 quarts of filtered water. The amounts here are to your liking. I go with 3/4 cup sugar and a huge handful of ginger! Steep that for 15-20 minutes and cool completely. Add the juice of two lemons and 1/2 cup of the ginger bug (you don't have to strain). Transfer into a growler (I like using two 32 oz guys) with a locking lid and let sit out at room temperature for three days. It is very important to burp the growlers once a day. Slowly and I mean slowly open the cap once a day to let the gas out. After three days transfer in your fridge and enjoy.  There is enough ginger bug to make three batches. I have had success leaving it in the fridge without feeding and it works fine."
     },
-    // ADD REMAINING RECIPES 
     {
         name: "Sesame Noodles",
         image: "../images/sesame-noodles.jpg",
         ingredients: "<li>2 cloves black garlic</li><li>small handful dried oyster mushrooms</li><li>1 jalapeño</li><li>1 fresno chili</li><li>2 scallion</li><li>small handful diced and peeled ginger</li><li>1 tbsp soy sauce</li><li>1 tbsp ponzu</li><li>1 tbsp sesame oil</li><li>1 tbsp rice wine vinegar</li><li>1 tbsp sesame seed</li><li>1 tbsp sugar</li><li>noodles of your choice</li>",
         description: "This is an extremely easy dish that I make all the time. Saute black garlic, mushrooms, half the jalapeño, half the Fresno, the green part of the scallions, and ginger all at once. Once everyone is happy add the liquids. I just eyeball it but it's probably about a tbsp each. Reduce that by half and add some cooked noodles to the pan, along with a splash of the pasta water. Mix it up and serve. Garnish with the other half of peppers, toasted sesame seeds, and the white part of the scallion."
+    },
+    {
+        name: "Chill Guy Bread",
+        image: "../images/chill-guy-bread.jpg",
+        ingredients: "<li>2 cloves black garlic</li><li>small handful dried oyster mushrooms</li><li>1 jalapeño</li><li>1 fresno chili</li><li>2 scallion</li><li>small handful diced and peeled ginger</li><li>1 tbsp soy sauce</li><li>1 tbsp ponzu</li><li>1 tbsp sesame oil</li><li>1 tbsp rice wine vinegar</li><li>1 tbsp sesame seed</li><li>1 tbsp sugar</li><li>noodles of your choice</li>",
+        description: "This is an extremely easy dish that I make all the time. Saute black garlic, mushrooms, half the jalapeño, half the Fresno, the green part of the scallions, and ginger all at once. Once everyone is happy add the liquids. I just eyeball it but it's probably about a tbsp each. Reduce that by half and add some cooked noodles to the pan, along with a splash of the pasta water. Mix it up and serve. Garnish with the other half of peppers, toasted sesame seeds, and the white part of the scallion."
+    },
+    {
+        name: "Curry Cauliflower",
+        image: "../images/curry-cauliflower.jpg",
+        ingredients: "<li>1/2 head cauliflower</li><li>4 tbsp coconut oil</li><li>Jamaican curry powder</li>",
+        description: "Heat up your coconut oil in a non stick/oven proof pan. Coat the cauliflower with curry powder over the oil and place in the pan. Incorporate the oil all over the cauliflower. Sear for 1 minute and place in a 425 degree oven for 20 minutes."
     }
+    // Add recipes here
 ]
