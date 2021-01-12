@@ -269,7 +269,7 @@ const recipes = [
         name: "Vegan Fruit Tart",
         image: "../images/vegan-fruit-tartlet.jpg",
         ingredients: "<li>3 2 1 crust</li><li>1 cup flour</li><li>1/2v.butter</li><li>1/4 cup oat milk</li><li>2 tbsp sugar</li><li>1 cup cashew</li><li>1/2 cup water</li><li>1 tbsp honey</li><li>1 tsp vanilla</li><li>half a lemon zest</li><li>pinch of salt</li><li>chocolate</li>",
-        description: "3 2 1 crust. 1 cup flour, 1/2v.butter, 1/4 cup oat milk, and 2 tbsp sugar. Mix everything by hand smashing the butter. Then add milk, form a bowl, and refrigerate overnight or in the freezer for 2 hours. <br><br>Cashew cream. I cup cashew, 1/2 cup water, 1 tbsp honey, 1 tsp vanilla, half a lemon zest, and pinch of salt. Blast on high and chill in the fridge. <br><br>Roll out the crust and use a ring mold to portion. Place in a greased muffin rack. Preheat the oven at 400 and bake for 10-12 minutes and cool. Melt chocolate and pour in then cool. Add cashew cream, granola, and layer fruit."
+        description: "3 2 1 crust. 1 cup flour, 1/2 cup vegan butter, 1/4 cup oat milk, and 2 tbsp sugar. Mix everything by hand smashing the butter. Then add milk, form a bowl, and refrigerate overnight or in the freezer for 2 hours. <br><br>Cashew cream. I cup cashew, 1/2 cup water, 1 tbsp honey, 1 tsp vanilla, half a lemon zest, and pinch of salt. Blast on high and chill in the fridge. <br><br>Roll out the crust and use a ring mold to portion. Place in a greased muffin rack. Preheat the oven at 400 and bake for 10-12 minutes and cool. Melt chocolate and pour in then cool. Add cashew cream, granola, and layer fruit."
     },
     {
         name: "Chickpea Pancake",
