@@ -258,6 +258,23 @@ const recipes = [
         image: "../images/curry-cauliflower.jpg",
         ingredients: "<li>1/2 head cauliflower</li><li>4 tbsp coconut oil</li><li>Jamaican curry powder</li>",
         description: "Heat up your coconut oil in a non stick/oven proof pan. Coat the cauliflower with curry powder over the oil and place in the pan. Incorporate the oil all over the cauliflower. Sear for 1 minute and place in a 425 degree oven for 20 minutes."
+    },
+    {
+        name: "Chill Guy Tortellini",
+        image: "../images/tortellini.jpg",
+        ingredients: "<li>250 grams semolina flour</li><li>125 grams water</li><li>2 cloves garlic</li><li>handful of chopped and washed leeks</li><li>5 baby portabella mushrooms</li><li>half a shallot</li><li>handful of spinach</li><li>1 lemon</li><li>red wine vinegar</li><li>vegan mozzarella</li><li>2 tbsp vegan butter</li><li>olive oil</li><li>small handful oregano</li><li>red crushed pep</li><li>small handful cashews</li><li>chill guy tomato sauce</li><li>salt</li><li>white pep</li>",
+        description: "Dump the semolina on a clean work surface and make a well. Slowly incorporate the water and form a dough. Knead 10 minutes or until smooth and springy to the touch. Let sit for 20 minutes covered. <br><br>Start the filling with sautéing chopped garlic and leeks in 1 tbsp vegan butter and 1 tbsp olive oil. Add the mushrooms, followed by oregano, a splash of red wine vinegar, and lemon juice. Season with salt and white pep and blast in a blender. Make the sauce with 1 tbsp vegan butter, 1 tbsp olive oil, and diced shallot. Sweat that, then add mushrooms. Season and add some cashews, followed by about half a cup of chill guy tomato sauce (see Shakshouka). Cook down for a few minutes and blast in a blender. Transfer that back into your pan so you can heat it up later. Now roll out your dough and pass it through a pasta machine twice through the thickest setting, then once through the next two thinner settings. Portion the dough with a ring mold. Fill each circle with 1 tsp of the filling and a little chunk of vegan mozzarella. Wet the edges and fold into a chill guy tortellini. Bring some salty water to a boil and drop them in for 1-2 minutes. Serve with the reheated sauce."
+    },
+    {
+        name: "Vegan Fruit Tart",
+        image: "../images/vegan-fruit-tartlet.jpg",
+        ingredients: "<li>3 2 1 crust</li><li>1 cup flour</li><li>1/2v.butter</li><li>1/4 cup oat milk</li><li>2 tbsp sugar</li><li>1 cup cashew</li><li>1/2 cup water</li><li>1 tbsp honey</li><li>1 tsp vanilla</li><li>half a lemon zest</li><li>pinch of salt</li><li>chocolate</li>",
+        description: "3 2 1 crust. 1 cup flour, 1/2v.butter, 1/4 cup oat milk, and 2 tbsp sugar. Mix everything by hand smashing the butter. Then add milk, form a bowl, and refrigerate overnight or in the freezer for 2 hours. <br><br>Cashew cream. I cup cashew, 1/2 cup water, 1 tbsp honey, 1 tsp vanilla, half a lemon zest, and pinch of salt. Blast on high and chill in the fridge. <br><br>Roll out the crust and use a ring mold to portion. Place in a greased muffin rack. Preheat the oven at 400 and bake for 10-12 minutes and cool. Melt chocolate and pour in then cool. Add cashew cream, granola, and layer fruit."
+    },
+    {
+        name: "Chickpea Pancake",
+        image: "../images/chickpea-pancake.jpg",
+        ingredients: "<li>1 cup chickpea flour</li><li>1 1/2 cup water</li><li>1 jalapeño finely diced</li><li>1/2 onion finely diced</li><li>1 small head broccoli (top part only, save stem for something else)</li><li>1/2 tbsp cumin seed</li><li>1/2 tbsp coriander</li><li>1/2 tbsp garlic powder</li><li>1/2 tbsp ginger powder</li><li>1/2 tbsp cayenne</li><li>1/2 tbsp paprika</li><li>1 tsp baking powder</li><li>1 tsp salt</li><li>1 tbsp vegan butter</li><li>1 tsp white pep</li>",
+        description: "1 cup chickpea flour,  1 1/2 cup water, 1 jalapeño finely diced, 1/2 onion finely diced, 1 small head broccoli (top part only, save stem for something else), 1/2 tbsp each cumin seed, coriander, garlic powder, ginger powder, cayenne, paprika, 1 tsp baking powder, 1 tsp salt and white pep. <br><br>Heat a non stick pan with 1 tbsp vegan butter. Mix everything in a bowl. Wait till the butter sizzles and add a ladle or two of the batter. Cook till golden brown and flip. Cook for another 2 or so minutes, garnish with scallion, agave, and enjoy."
     }
-    // Add recipes here
 ]
