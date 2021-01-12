@@ -1,6 +1,6 @@
 # Chill Guy Cooks
 
-Chillguycooks.com is a website featuring mostly vegan recipes and videos from Philadelphia musician and chef, Kevin Ripley. 
+[Chillguycooks.com](https://modest-hermann-9505ce.netlify.app) is a website featuring mostly vegan recipes and videos from Philadelphia musician and chef, Kevin Ripley. 
 
 ## Recipes
 
