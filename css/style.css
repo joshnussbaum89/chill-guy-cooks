@@ -586,6 +586,7 @@ textarea:focus {
   background-repeat: no-repeat;
   background-size: cover;
   height: 666px;
+  min-height: 100vh;
 }
 .hero-overlay {
   background-color: rgba(11, 13, 77, 0.4);
