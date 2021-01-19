@@ -404,11 +404,12 @@ h6 {
 /*              Buttons                          */
 /* ============================================= */
 .recipe-div-button,
-.youtube-button {
+.youtube-button,
+.go-back {
   font-size: 1rem;
   font-weight: 200;
   text-transform: uppercase;
-  padding: 1.5rem;
+  padding: 1.2rem;
   transition: 0.2s;
   border-radius: 300px;
   cursor: pointer;
@@ -422,7 +423,6 @@ h6 {
 .recipe-div-button {
   background-color: #fff;
   border: 2px solid #131416;
-  border-radius: 300px;
   display: block;
   margin: auto;
 }
@@ -433,11 +433,10 @@ h6 {
 }
 
 .youtube-button {
-  margin: 1rem auto 3rem;
+  margin: 2rem 0.5rem 0.5rem;
   color: #fff;
   background-color: inherit;
   border: 2px solid #fff;
-  border-radius: 300px;
   cursor: pointer;
 }
 .youtube-button:hover {
@@ -696,8 +695,8 @@ textarea:focus {
   color: #fff;
 }
 .youtube-text h2 {
-  text-align: center;
-  max-width: 250px;
+  margin: auto;
+  width: 250px;
   padding-bottom: 2rem;
   border-bottom: 2px solid #fff;
 }
@@ -780,6 +779,9 @@ textarea:focus {
   transition: 0.2s ease;
 }
 
+/* ============================================= */
+/*              Recipe Description               */
+/* ============================================= */
 .featured-recipe-title {
   width: 250px;
   padding-bottom: 2rem;
@@ -800,17 +802,9 @@ textarea:focus {
 }
 
 .go-back {
-  font-size: 1rem;
-  font-weight: 200;
-  text-transform: uppercase;
-  padding: 1.5rem;
   margin-top: 3rem;
-  transition: 0.2s;
-  border-radius: 300px;
-  cursor: pointer;
   background-color: #fff;
   border: 2px solid #131416;
-  border-radius: 300px;
 }
 .go-back:hover {
   color: #fff;

@@ -50,8 +50,8 @@
         @include absoluteCenter;
         color: $white;
         h2 {
-            text-align: center;
-            max-width: 250px;
+            margin: auto;
+            width: 250px;
             padding-bottom: 2rem;
             border-bottom: 2px solid $white;
         }
@@ -61,4 +61,5 @@
             font-weight: 100;
         }
     }
+
 }

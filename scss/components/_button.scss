@@ -3,11 +3,12 @@
 /* ============================================= */
 
 .recipe-div-button,
-.youtube-button {
+.youtube-button,
+.go-back {
     font-size: 1rem;
     font-weight: 200;
     text-transform: uppercase;
-    padding: 1.5rem;
+    padding: 1.2rem;
     transition: .2s;
     border-radius: 300px;
     cursor: pointer;
@@ -19,7 +20,6 @@
     &-button {
         background-color: $white;
         border: 2px solid $babish-black;
-        border-radius: 300px;
         display: block;
         margin: auto;
         &:hover {
@@ -31,11 +31,10 @@
 }
 
 .youtube-button {
-    margin: 1rem auto 3rem;
+    margin: 2rem .5rem .5rem;
     color: $white;
     background-color: inherit;
     border: 2px solid $white;
-    border-radius: 300px;
     cursor: pointer;
     &:hover {
         color: $babish-black;
