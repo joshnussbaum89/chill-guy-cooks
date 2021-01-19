@@ -1,3 +1,8 @@
+/**********************
+ * Array of recipes
+ * Add more recipes by simply adding a recipe {object} in recipes.js and updating recipes.html
+ **********************/
+
 const recipes = [
     {
         name: "Falafel",

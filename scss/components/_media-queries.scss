@@ -40,9 +40,10 @@
     .about {
         margin: 2rem 5rem 4rem;
         &-image {
-            margin: 0 1.5rem 1rem 0;
+            width: 90%;
         }
         &-description {
+            width: 90%;
             font-size: 1.1rem;
         }
     }
@@ -66,7 +67,11 @@
 
     .about {
         margin: 2rem 8rem 4rem;
+        &-image {
+            width: 80%;
+        }
         &-description {
+            width: 80%;
             font-size: 1.2rem;
         }
     }

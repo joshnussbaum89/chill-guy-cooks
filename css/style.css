@@ -389,15 +389,18 @@ h6 {
   height: 90%;
 }
 .about-image {
-  padding-top: 0.5rem;
-  margin: 0 1rem 1rem 0;
-  float: left;
-  width: 40%;
+  display: block;
+  margin: 0 auto 4rem;
+  width: 100%;
   min-width: 250px;
+  transition: 0.2s;
+  box-shadow: 0 0 20px #131416;
 }
 .about-description {
+  width: 100%;
   padding: 0;
-  margin: 0;
+  text-align: center;
+  margin: 0 auto;
 }
 
 /* ============================================= */
@@ -928,9 +931,10 @@ textarea:focus {
     margin: 2rem 5rem 4rem;
   }
   .about-image {
-    margin: 0 1.5rem 1rem 0;
+    width: 90%;
   }
   .about-description {
+    width: 90%;
     font-size: 1.1rem;
   }
 }
@@ -952,7 +956,11 @@ textarea:focus {
   .about {
     margin: 2rem 8rem 4rem;
   }
+  .about-image {
+    width: 80%;
+  }
   .about-description {
+    width: 80%;
     font-size: 1.2rem;
   }
 
