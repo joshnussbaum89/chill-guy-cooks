@@ -392,13 +392,11 @@ h6 {
   display: block;
   margin: 0 auto 4rem;
   width: 100%;
-  min-width: 250px;
   transition: 0.2s;
   box-shadow: 0 0 20px #131416;
 }
 .about-description {
   width: 100%;
-  padding: 0;
   text-align: center;
   margin: 0 auto;
 }
@@ -539,7 +537,7 @@ textarea:focus {
 /* ============================================= */
 .footer {
   position: relative;
-  height: 30vh;
+  min-height: 200px;
   background-color: #131416;
 }
 .footer-info {
@@ -587,11 +585,11 @@ textarea:focus {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 666px;
 }
 .hero-overlay {
   background-color: rgba(11, 13, 77, 0.4);
-  height: 100vh;
+  height: 100%;
 }
 .hero h1 {
   font-size: 4em;
@@ -682,7 +680,7 @@ textarea:focus {
   background-size: cover;
   z-index: 500;
   filter: opacity(95%);
-  height: 50vh;
+  height: 333px;
 }
 .youtube-overlay {
   background-color: rgba(11, 13, 77, 0.4);

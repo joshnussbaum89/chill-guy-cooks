@@ -4,7 +4,7 @@
 
 .footer {
     position: relative;
-    height: 30vh;
+    min-height: 200px;
     background-color: $babish-black;
     &-info {
         @include absoluteCenter;
