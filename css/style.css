@@ -357,6 +357,16 @@ body {
   color: #131416;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
 p {
   line-height: 1.8rem;
 }
@@ -370,16 +380,6 @@ a:hover {
   color: #758b72;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-}
-
 /* ============================================= */
 /*              about                            */
 /* ============================================= */
@@ -390,15 +390,19 @@ h6 {
 }
 .about-image {
   display: block;
-  margin: 0 auto 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
   width: 100%;
-  transition: 0.2s;
   box-shadow: 0 0 20px #131416;
+  transition: 0.2s;
 }
 .about-description {
-  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-  margin: 0 auto;
+  width: 100%;
 }
 
 /* ============================================= */
@@ -422,10 +426,11 @@ h6 {
   margin: 1rem auto 3rem;
 }
 .recipe-div-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #fff;
   border: 2px solid #131416;
-  display: block;
-  margin: auto;
 }
 .recipe-div-button:hover {
   color: #fff;
@@ -452,19 +457,12 @@ h6 {
 #contact {
   width: 100%;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .contact-form {
-  width: 70%;
+  width: 90%;
   max-width: 800px;
   margin: auto;
-}
-.contact-form legend {
-  font-size: 2rem;
-  margin: 1rem 0;
 }
 .contact-form textarea {
   height: 100px;
@@ -477,12 +475,12 @@ h6 {
   margin: 1rem auto 4rem;
   padding: 1rem;
   width: 40%;
-  transition: 0.1s;
+  transition: 0.2s;
 }
 .contact-form button[type=submit]:hover {
   border-radius: 0px;
-  cursor: pointer;
   box-shadow: 5px 5px 0 #131416;
+  cursor: pointer;
 }
 .contact-form button[type=submit]:active {
   transform: translate(5px, 5px);
@@ -502,12 +500,8 @@ textarea {
   width: 90%;
   transition: 0.2s;
 }
-input[type=text]:focus, input[type=text]:focus, input[type=text]:focus,
+input[type=text]:focus,
 input[type=email]:focus,
-input[type=email]:focus,
-input[type=email]:focus,
-textarea:focus,
-textarea:focus,
 textarea:focus {
   border-radius: 0px;
   box-shadow: 5px 5px 0 #131416;
@@ -522,9 +516,9 @@ textarea:focus {
 .featured-title {
   width: 250px;
   padding-bottom: 2rem;
-  border-bottom: 2px solid #131416;
   margin: 4rem auto;
   text-align: center;
+  border-bottom: 2px solid #131416;
 }
 .featured-description {
   font-size: 1.3rem;
@@ -563,14 +557,14 @@ textarea:focus {
   align-items: center;
 }
 .icons-svg {
-  cursor: pointer;
   padding: 10px;
   margin: 0 1rem;
   border: 2px solid #fff;
   border-radius: 10px;
   width: 20px;
-  transition: 0.3s;
+  transition: 0.2s;
   fill: #fff;
+  cursor: pointer;
 }
 .icons-svg:hover {
   border: 2px solid #758b72;
@@ -593,25 +587,25 @@ textarea:focus {
   height: 100%;
 }
 .hero h1 {
-  font-size: 4em;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  font-size: 4em;
   color: #fff;
 }
 
 .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   position: fixed;
   z-index: 1000;
   width: 100%;
   top: 0;
   height: 0.5rem;
   background-color: initial;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 2rem;
   color: #fff;
   transition: 0.2s;
@@ -622,9 +616,9 @@ textarea:focus {
 .nav-menu {
   justify-self: center;
   margin-right: 4rem;
-  cursor: pointer;
   width: 25px;
   transition: 0.2s;
+  cursor: pointer;
 }
 .nav-menu:hover {
   fill: #758b72;
@@ -640,11 +634,11 @@ textarea:focus {
 /*              Images                           */
 /* ============================================= */
 .featured-img {
-  padding: 2rem 0;
   display: grid;
+  justify-items: center;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
-  justify-items: center;
+  padding: 2rem 0;
 }
 .featured-img-pic {
   display: flex;
@@ -670,7 +664,7 @@ textarea:focus {
   max-width: 500px;
   height: 100%;
   max-height: 500px;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .youtube {
@@ -715,12 +709,12 @@ textarea:focus {
   display: none;
 }
 .desktopnav a {
-  transition: 0.3s;
+  transition: 0.2s;
 }
 .desktopnav a .nav-icon {
   fill: #fff;
   width: 1.2rem;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 .desktopnav a .nav-icon:hover {
   fill: #758b72;
@@ -745,7 +739,7 @@ textarea:focus {
 }
 .sidenav li:first-child {
   display: block;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 .sidenav li:not(:first-child) {
   width: 80%;
@@ -755,7 +749,7 @@ textarea:focus {
   text-decoration: none;
   font-size: 1.4rem;
   display: block;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 .sidenav a:hover {
   color: #758b72;
@@ -764,7 +758,7 @@ textarea:focus {
   padding: 0 1rem;
   fill: #fff;
   width: 1.2rem;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 .sidenav-icon:hover {
   fill: #758b72;
@@ -794,7 +788,7 @@ textarea:focus {
 
 .featured-recipe-ingredients {
   padding: 1rem;
-  list-style-type: circle;
+  list-style-type: disc;
   color: #51575b;
 }
 
@@ -821,13 +815,13 @@ textarea:focus {
   margin: 0 2rem 4rem;
 }
 .recipes-search {
+  display: block;
+  margin: 2rem auto;
   color: #131416;
   border: 1px solid #131416;
   outline: none;
   height: 3rem;
   padding: 0 1rem;
-  display: block;
-  margin: 2rem auto;
   border-radius: 5px;
   width: 50%;
   transition: 0.2s;
@@ -837,11 +831,11 @@ textarea:focus {
   box-shadow: 5px 5px 0 #131416;
 }
 .recipes-img {
-  padding: 2rem 0;
   display: grid;
+  justify-items: center;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
-  justify-items: center;
+  padding: 2rem 0;
 }
 
 .recipe-container {
@@ -855,17 +849,17 @@ textarea:focus {
   left: 0;
   right: 0;
   opacity: 1;
-  transition: 0.3s ease;
+  transition: 0.2s ease;
   background-color: rgba(11, 13, 77, 0.4);
 }
 .recipe-overlay-text {
-  color: #fff;
-  font-size: 1.6rem;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  color: #fff;
+  font-size: 1.6rem;
 }
 
 .recipe-buttons {
@@ -896,8 +890,7 @@ textarea:focus {
 .recipes {
     padding: 0 1rem;
   }
-  .featured-img, .featured-img,
-.recipes-img,
+  .featured-img,
 .recipes-img {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -946,8 +939,7 @@ textarea:focus {
 .recipes {
     padding: 0 2rem;
   }
-  .featured-img, .featured-img,
-.recipes-img,
+  .featured-img,
 .recipes-img {
     grid-template-columns: repeat(3, 1fr);
   }

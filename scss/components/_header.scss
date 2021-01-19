@@ -4,7 +4,7 @@
 
 .hero {
     background-image: url('../images/ramen.jpg');
-    // background-attachment: fixed; // THIS DOESN'T WORK ON SAFARI
+    // background-attachment: fixed; THIS DOESN'T WORK ON SAFARI
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,20 +15,20 @@
         height: 100%;
     }
     h1 {
-        font-size: 4em;
         @include absoluteCenter;
+        font-size: 4em;
         color: $white;
     }
 }
 
 .nav {
+    @include flexy($just: space-between, $align: center);
     position: fixed;
     z-index: 1000; 
     width: 100%;
     top: 0;
     height: .5rem;
     background-color: initial;
-    @include flexy($just: space-between, $align: center);
     padding: 2rem;
     color: $white;
     transition: .2s;
@@ -38,9 +38,9 @@
     &-menu {
         justify-self: center;
         margin-right: 4rem;
-        cursor: pointer;
         width: 25px;
         transition: .2s;
+        cursor: pointer;
         &:hover {
             fill: $earth-green;
         }

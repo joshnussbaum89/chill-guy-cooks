@@ -5,13 +5,13 @@
 .recipes {
     margin: 0 2rem 4rem;
     &-search {
+        display: block;
+        margin: 2rem auto;
         color: $babish-black;
         border: 1px solid $babish-black;
         outline: none;
         height: 3rem;
         padding: 0 1rem;
-        display: block;
-        margin: 2rem auto;
         border-radius: 5px;
         width: 50%;
         transition: .2s;
@@ -21,11 +21,11 @@
         }
     }
     &-img {
-        padding: 2rem 0;
         display: grid;
+        justify-items: center;
         grid-template-columns: 1fr;
         grid-gap: 2rem;
-        justify-items: center;
+        padding: 2rem 0;
     }
 }
 
@@ -41,12 +41,12 @@
     left: 0;
     right: 0;
     opacity: 1;
-    transition: .3s ease;
+    transition: .2s ease;
     background-color: $overlay;
     &-text {
+        @include absoluteCenter();
         color: $white;
         font-size: 1.6rem;
-        @include absoluteCenter();
     }
 }
 

@@ -3,11 +3,11 @@
 /* ============================================= */
 
 .featured-img {
-    padding: 2rem 0;
     display: grid;
+    justify-items: center;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
-    justify-items: center;
+    padding: 2rem 0;
     &-pic {
         @include flexy($dir: column, $align: center);
         padding: 1rem 0;
@@ -26,7 +26,7 @@
             max-width: 500px;
             height: 100%;
             max-height: 500px;
-            transition: .3s;
+            transition: .2s;
         }
     }
 }
@@ -34,7 +34,7 @@
 .youtube {
     position: relative;
     background-image: url('../images/tree.jpg');
-    //background-attachment: fixed; // THIS DOESN'T WORK ON SAFARI
+    // background-attachment: fixed; THIS DOESN'T WORK ON SAFARI
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

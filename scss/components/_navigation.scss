@@ -5,11 +5,11 @@
 .desktopnav {
     display: none;
     a {
-        transition: .3s;
+        transition: .2s;
         .nav-icon {
             fill: $white;
             width: 1.2rem;
-            transition: .3s;
+            transition: .2s;
         }
         .nav-icon:hover {
             fill: $earth-green;
@@ -30,11 +30,11 @@
     background-color: $babish-black;
     overflow-x: hidden;
     overflow-y: hidden;
-    transition: 0.2s ease;
+    transition: .2s ease;
     padding-top: 60px;
     li:first-child {
         display: block;
-        transition: 0.3s;
+        transition: .2s;
     }
     li:not(:first-child) {
         width: 80%;
@@ -44,7 +44,7 @@
         text-decoration: none;
         font-size: 1.4rem;
         display: block;
-        transition: 0.3s;
+        transition: .2s;
     }
     a:hover {
         color: $earth-green;
@@ -53,7 +53,7 @@
         padding: 0 1rem;
         fill: $white;
         width: 1.2rem;
-        transition: .3s;
+        transition: .2s;
     }
     &-icon:hover {
         fill: $earth-green;

@@ -68,9 +68,9 @@ function searchRecipes() {
     const cards = document.querySelectorAll(".featured-img-pic");
 
     cards.forEach((recipe, index) => {
-        const recipeTitle = recipe.firstElementChild.lastElementChild.firstElementChild.firstElementChild.textContent.toLowerCase();
+        const recipeTitles = recipe.firstElementChild.lastElementChild.firstElementChild.firstElementChild.textContent.toLowerCase();
 
-        if (recipeTitle.includes(userInput)) {
+        if (recipeTitles.includes(userInput)) {
             cards[index].style.display = "flex";
         } else {
             cards[index].style.display = "none";

@@ -3,11 +3,9 @@
 /* ============================================= */
 
 @media (min-width: $md) {
-
     .featured,
     .recipes {
         padding: 0 1rem;
-        &-img,
         &-img {
             grid-template-columns: repeat(2, 1fr);
         }
@@ -47,11 +45,9 @@
             font-size: 1.1rem;
         }
     }
-
 }
 
 @media (min-width: $lg){
-
     .hero h1 {
         font-size: 6em;
     }
@@ -59,7 +55,6 @@
     .featured,
     .recipes {
         padding: 0 2rem;
-        &-img,
         &-img {
             grid-template-columns: repeat(3, 1fr);
         }
@@ -84,5 +79,4 @@
         opacity: 1;
         box-shadow: 0 0 10px $babish-black;
     }
-    
 }

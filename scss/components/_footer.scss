@@ -23,14 +23,14 @@
 .icons {
     @include flexy($just: center, $align: center);
     &-svg {
-        cursor: pointer;
         padding: 10px;
         margin: 0 1rem;
         border: 2px solid $white;
         border-radius: 10px;
         width: 20px;
-        transition: .3s;
+        transition: .2s;
         fill: $white;
+        cursor: pointer;
     }
     &-svg:hover {
         border: 2px solid $earth-green;

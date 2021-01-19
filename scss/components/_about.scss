@@ -7,15 +7,15 @@
     min-height: 580px;
     height: 90%;
     &-image { 
-        display: block;
-        margin: 0 auto 4rem;
+        @include center;
+        margin-bottom: 4rem;
         width: 100%;
-        transition: .2s;
         box-shadow: 0 0 20px $babish-black;
+        transition: .2s;
     }
     &-description {
-        width: 100%;
+        @include center;
         text-align: center;
-        margin: 0 auto;
+        width: 100%;
     }
 }
