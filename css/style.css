@@ -776,6 +776,40 @@ textarea:focus {
 }
 
 /* ============================================= */
+/*              Pagination                       */
+/* ============================================= */
+.pagination {
+  margin: 30px 0 60px;
+  text-align: center;
+}
+.pagination .link-list {
+  padding: 0;
+}
+.pagination li {
+  display: inline;
+  padding: 0 3px;
+}
+.pagination li button {
+  font-size: 1em;
+  outline: none;
+  padding: 0.5em 0.85em;
+  background: #fff;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #131416;
+  box-shadow: 0 1px 8px 0 rgba(22, 42, 90, 0.05);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.pagination li button.active,
+.pagination li button:hover {
+  background-color: #131416;
+  color: #fff;
+}
+
+/* ============================================= */
 /*              Recipe Description               */
 /* ============================================= */
 .featured-recipe-title {
