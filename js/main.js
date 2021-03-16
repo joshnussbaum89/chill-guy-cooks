@@ -19,8 +19,9 @@ if (document.URL.includes("recipes.html")) {
 /*              Functions                        */
 /* ============================================= */
 
-
-// Open navigation based on user click 
+/**
+ * Open navigation based on user click 
+ */
 function openNav() {
     mobileNav.style.width = "100%";
     main.style.marginRight = "100%";
@@ -34,7 +35,9 @@ function openNav() {
     navMenu.style.display = 'none';
 }
 
-// Close navigation based on user click
+/**
+ * Close navigation based on user click 
+ */
 function closeNav() {
     mobileNav.style.width = "0";
     main.style.marginRight = "0";
@@ -47,7 +50,9 @@ function closeNav() {
     navLogo.style.display = 'block';
 }
 
-// Close navigation based on window resize
+/**
+ * Close navigation based on window resize
+ */
 function closeNavOnWindowResize() {
     if (window.innerWidth < 768) {
         navMenu.style.display = "block";
@@ -59,7 +64,9 @@ function closeNavOnWindowResize() {
     }
 }
 
-// Change nav background to black on scroll
+/**
+ * Change nav background to black on scroll
+ */
 function blackNavOnScroll() {
     const top = window.scrollY;
 
@@ -70,8 +77,12 @@ function blackNavOnScroll() {
     };
 }
 
-// Search for recipes dynamically as user types
+/**
+ * Search for recipes dynamically as user types
+ * @param {object} object - event 
+ */
 function searchRecipes(e) {
+    console.log(typeof e);
     const eTargetValue = e.target.value.toLowerCase();
 
     let recipeArr = recipes.filter(recipe => {
@@ -83,7 +94,10 @@ function searchRecipes(e) {
     addPagination(recipeArr);
 }
 
-// Add pagination buttons based on page load and search results
+/**
+ * Add pagination buttons based on page load and search results
+ * @param {object} object - list of recipes from recipes.js 
+ */
 function addPagination(list) {
     const numOfPaginationBtns = Math.ceil(list.length / 9);
     const linkList = document.querySelector('.link-list');
@@ -99,6 +113,8 @@ function addPagination(list) {
     if (linkList.firstElementChild) {
         const firstLiItem = linkList.firstElementChild.firstElementChild;
         firstLiItem.classList.add('active');
+
+        // If there is only one pagination button, and it is clicked, reload the page
         firstLiItem.addEventListener('click', () => {
             window.location.reload();
         });
@@ -118,7 +134,11 @@ function addPagination(list) {
     });
 }
 
-// Page is 1 by default and list is the data array of students.
+/**
+ * Page is 1 by default and list is the data array of students.
+ * @param {object} object - list 
+ * @param {number} number - page 
+ */
 function showPage(list, page) {
     const startIndex = (page * 9) - 9;
     const endIndex = page * 9;
@@ -156,7 +176,10 @@ function showPage(list, page) {
     return studentList;
 }
 
-// Display recipe to recipe.html without changing to a new page
+/**
+ * Display recipe to recipe.html without changing to a new page
+ * @param {object} object - event 
+ */
 function displayRecipe(e) {
     const dataIndex = e.target.getAttribute('data-index');
 
@@ -177,8 +200,6 @@ function displayRecipe(e) {
             <input class="go-back" type="button" value="Go Back" onClick="window.location.reload()">
         `;
 }
-
-
 
 /* ============================================= */
 /*              Event Listeners                  */
