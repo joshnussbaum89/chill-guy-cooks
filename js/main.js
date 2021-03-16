@@ -191,7 +191,7 @@ function displayRecipe(e) {
 
     // Create HTML for recipe based on which recipe was clicked
     const recipesDiv = document.querySelector('.recipes');
-    console.log(recipes[dataIndex])
+
     // Change classes and create a recipe-desc sass component
     recipesDiv.innerHTML = `
             <h2 class="featured-recipe-title">${recipes[dataIndex].name}</h2>
