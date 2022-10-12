@@ -1,65 +1,61 @@
-/* ============================================= */
-/*              Images                           */
-/* ============================================= */
+// Images
 
 .featured-img {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 1fr;
-    grid-gap: 2rem;
-    padding: 2rem 0;
-    &-pic {
-        @include flexy($dir: column, $align: center);
-        padding: 1rem 0;
-        a {
-            @include flexy($dir: column, $just: center, $align: center);
-        }
-        .recipe {
-            padding: 1rem;
-            text-align: center;
-            font-weight: bold;
-            width: 100%;
-            max-width: 500px;
-        }
-        img {
-            width: 100%;
-            max-width: 500px;
-            height: 100%;
-            max-height: 500px;
-            transition: .2s;
-        }
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  padding: 2rem 0;
+  &-pic {
+    @include flexy($dir: column, $align: center);
+    padding: 1rem 0;
+    a {
+      @include flexy($dir: column, $just: center, $align: center);
     }
+    .recipe {
+      padding: 1rem;
+      text-align: center;
+      font-weight: bold;
+      width: 100%;
+      max-width: 500px;
+    }
+    img {
+      width: 100%;
+      max-width: 500px;
+      height: 100%;
+      max-height: 500px;
+      transition: 0.2s;
+    }
+  }
 }
-    
-.youtube {
-    position: relative;
-    background-image: url('../images/tree.jpg');
-    // background-attachment: fixed; THIS DOESN'T WORK ON SAFARI
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 500;
-    filter: opacity(95%);
-    height: 333px;
-    &-overlay {
-        background-color: $overlay;
-        height: 100%;
-        width: 100%;
-    }
-    &-text {
-        @include absoluteCenter;
-        color: $white;
-        h2 {
-            margin: auto;
-            width: 250px;
-            padding-bottom: 2rem;
-            border-bottom: 2px solid $white;
-        }
-        p {
-            margin: 2rem auto;
-            font-size: 1.2rem;
-            font-weight: 100;
-        }
-    }
 
+.youtube {
+  position: relative;
+  background-image: url('../images/tree.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 500;
+  filter: opacity(95%);
+  height: 333px;
+  &-overlay {
+    background-color: $overlay;
+    height: 100%;
+    width: 100%;
+  }
+  &-text {
+    @include absoluteCenter;
+    color: $white;
+    h2 {
+      margin: auto;
+      width: 250px;
+      padding-bottom: 2rem;
+      border-bottom: 2px solid $white;
+    }
+    p {
+      margin: 2rem auto;
+      font-size: 1.2rem;
+      font-weight: 100;
+    }
+  }
 }

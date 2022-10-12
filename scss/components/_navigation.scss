@@ -1,72 +1,69 @@
-/* ============================================= */
-/*              Navigation                       */
-/* ============================================= */
-
+// Desktop
 .desktopnav {
-    display: none;
-    a {
-        transition: .2s;
-        .nav-icon {
-            fill: $white;
-            width: 1.2rem;
-            transition: .2s;
-        }
-        .nav-icon:hover {
-            fill: $earth-green;
-        }
+  display: none;
+  a {
+    transition: 0.2s;
+    .nav-icon {
+      fill: $white;
+      width: 1.2rem;
+      transition: 0.2s;
     }
+    .nav-icon:hover {
+      fill: $earth-green;
+    }
+  }
 }
 
-// Mobile Navigation
+// Mobile
 .sidenav {
-    @include flexy($dir: column, $align: center);
-    padding: 0;
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 100;
+  @include flexy($dir: column, $align: center);
+  padding: 0;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  background-color: $babish-black;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transition: 0.2s ease;
+  padding-top: 60px;
+  li:first-child {
+    display: block;
+    transition: 0.2s;
+  }
+  li:not(:first-child) {
+    width: 80%;
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 1px solid $text;
+    text-decoration: none;
+    font-size: 1.4rem;
+    display: block;
+    transition: 0.2s;
+  }
+  a:hover {
+    color: $earth-green;
+  }
+  &-icon {
+    padding: 0 1rem;
+    fill: $white;
+    width: 1.2rem;
+    transition: 0.2s;
+  }
+  &-icon:hover {
+    fill: $earth-green;
+  }
+  .closebtn {
+    position: absolute;
     top: 0;
-    right: 0;
-    background-color: $babish-black;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    transition: .2s ease;
-    padding-top: 60px;
-    li:first-child {
-        display: block;
-        transition: .2s;
-    }
-    li:not(:first-child) {
-        width: 80%;
-        text-align: center;
-        padding: 2rem 0;
-        border-bottom: 1px solid $text;
-        text-decoration: none;
-        font-size: 1.4rem;
-        display: block;
-        transition: .2s;
-    }
-    a:hover {
-        color: $earth-green;
-    }
-    &-icon {
-        padding: 0 1rem;
-        fill: $white;
-        width: 1.2rem;
-        transition: .2s;
-    }
-    &-icon:hover {
-        fill: $earth-green;
-    }
-    .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-      }
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
   }
-  
-  #main {
-    transition: .2s ease;
-  }
+}
+
+#main {
+  transition: 0.2s ease;
+}

@@ -1,7 +1,3 @@
-// ======================================
-//  Mixins
-// ======================================
-
 // Center element
 @mixin center {
   display: block;
@@ -28,7 +24,14 @@
 }
 
 // Grid container
-@mixin grid($disp: grid, $col: null, $row: null, $area: null, $gap: null, $place: null) {
+@mixin grid(
+  $disp: grid,
+  $col: null,
+  $row: null,
+  $area: null,
+  $gap: null,
+  $place: null
+) {
   display: $disp;
   grid-template-columns: $col;
   grid-template-rows: $row;

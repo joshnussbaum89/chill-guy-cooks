@@ -1,54 +1,50 @@
-/* ============================================= */
-/*              Contact                          */
-/* ============================================= */
-
 #contact {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 .contact-form {
-    width: 90%;
-    max-width: 800px;
-    margin: auto;
-    textarea {
-        height: 100px;
-        padding: 1rem;
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  textarea {
+    height: 100px;
+    padding: 1rem;
+  }
+  button[type='submit'] {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid $babish-black;
+    margin: 1rem auto 4rem;
+    padding: 1rem;
+    width: 40%;
+    transition: 0.2s;
+    &:hover {
+      border-radius: 0px;
+      box-shadow: 5px 5px 0 $babish-black;
+      cursor: pointer;
     }
-    button[type=submit] {
-        background-color: white;
-        border-radius: 5px;
-        border: 1px solid $babish-black;
-        margin: 1rem auto 4rem;
-        padding: 1rem;
-        width: 40%;
-        transition: .2s;
-        &:hover {
-            border-radius: 0px;
-            box-shadow: 5px 5px 0 $babish-black;
-            cursor: pointer;
-        }
-        &:active {
-            transform: translate(5px, 5px);
-            box-shadow: none;
-        }
+    &:active {
+      transform: translate(5px, 5px);
+      box-shadow: none;
     }
+  }
 }
 
-input[type=text],
-input[type=email],
+input[type='text'],
+input[type='email'],
 textarea {
-    color: $babish-black;
-    border: 1px solid $babish-black;
-    outline: none;
-    margin: 1rem 0;
-    height: 3rem;
-    padding: 0 1rem;
-    border-radius: 5px;
-    width: 90%;
-    transition: .2s;
-    &:focus {
-        border-radius: 0px;
-        box-shadow: 5px 5px 0 $babish-black;
-    }
+  color: $babish-black;
+  border: 1px solid $babish-black;
+  outline: none;
+  margin: 1rem 0;
+  height: 3rem;
+  padding: 0 1rem;
+  border-radius: 5px;
+  width: 90%;
+  transition: 0.2s;
+  &:focus {
+    border-radius: 0px;
+    box-shadow: 5px 5px 0 $babish-black;
+  }
 }

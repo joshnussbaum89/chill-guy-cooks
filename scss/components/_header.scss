@@ -1,54 +1,48 @@
-/* ============================================= */
-/*              Header                           */
-/* ============================================= */
-
 .hero {
-    background-image: url('../images/ramen.jpg');
-    // background-attachment: fixed; THIS DOESN'T WORK ON SAFARI
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 666px;
-    min-height: 100vh;
-    &-overlay {
-        background-color: $overlay;
-        height: 100%;
-    }
-    h1 {
-        @include absoluteCenter;
-        font-size: 4em;
-        color: $white;
-    }
+  background-image: url('../images/ramen.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  &-overlay {
+    background-color: $overlay;
+    height: 100%;
+  }
+  h1 {
+    @include absoluteCenter;
+    font-size: 4em;
+    color: $white;
+  }
 }
 
 .nav {
-    @include flexy($just: space-between, $align: center);
-    position: fixed;
-    z-index: 1000; 
-    width: 100%;
-    top: 0;
-    height: .5rem;
-    background-color: initial;
-    padding: 2rem;
+  @include flexy($just: space-between, $align: center);
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+  height: 0.5rem;
+  background-color: initial;
+  padding: 2rem;
+  color: $white;
+  transition: 0.2s;
+  &-logo {
+    width: 45px;
+  }
+  &-menu {
+    justify-self: center;
+    margin-right: 4rem;
+    width: 25px;
+    transition: 0.2s;
+    cursor: pointer;
+    &:hover {
+      fill: $earth-green;
+    }
+  }
+  &-title {
     color: $white;
-    transition: .2s;
-    &-logo {
-        width: 45px;
-    }
-    &-menu {
-        justify-self: center;
-        margin-right: 4rem;
-        width: 25px;
-        transition: .2s;
-        cursor: pointer;
-        &:hover {
-            fill: $earth-green;
-        }
-    }
-    &-title {
-        color: $white;
-    }
-    &-title:hover {
-        color: $white;
-    }
+  }
+  &-title:hover {
+    color: $white;
+  }
 }

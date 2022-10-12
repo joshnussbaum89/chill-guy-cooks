@@ -1,19 +1,17 @@
-/* ============================================= */
-/*              Featured                         */
-/* ============================================= */
+// Featured recipes
 
 .featured {
-    margin: 0 2rem;
-    &-title {
-        width: 250px;
-        padding-bottom: 2rem;
-        margin: 4rem auto;
-        text-align: center;
-        border-bottom: 2px solid $babish-black;
-    }
-    &-description {
-        font-size: 1.3rem;
-        padding: 1rem 0;
-        text-align: center;
-    }
+  margin: 0 2rem;
+  &-title {
+    width: 250px;
+    padding-bottom: 2rem;
+    margin: 4rem auto;
+    text-align: center;
+    border-bottom: 2px solid $babish-black;
+  }
+  &-description {
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    text-align: center;
+  }
 }

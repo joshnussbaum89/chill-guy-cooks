@@ -1,82 +1,78 @@
-/* ============================================= */
-/*              Media Queries                    */
-/* ============================================= */
-
 @media (min-width: $md) {
-    .featured,
-    .recipes {
-        padding: 0 1rem;
-        &-img {
-            grid-template-columns: repeat(2, 1fr);
-        }
+  .featured,
+  .recipes {
+    padding: 0 1rem;
+    &-img {
+      grid-template-columns: repeat(2, 1fr);
     }
+  }
 
-    .featured-recipe-ingredients {
-        float: left;
-        width: 25%;
-        margin-right: 3rem;
-    }  
+  .featured-recipe-ingredients {
+    float: left;
+    width: 25%;
+    margin-right: 3rem;
+  }
 
-    .desktopnav {
-        @include flexy();
-        margin-right: 4rem;
-        li {
-            padding: 0 1rem;
-            list-style: none;
-        }
+  .desktopnav {
+    @include flexy();
+    margin-right: 4rem;
+    li {
+      padding: 0 1rem;
+      list-style: none;
     }
+  }
 
-    .go-back {
-        display: block;
-        margin-left: auto;
-    }
+  .go-back {
+    display: block;
+    margin-left: auto;
+  }
 
-    .nav-menu {
-        display: none;
-    }
+  .nav-menu {
+    display: none;
+  }
 
-    .about {
-        margin: 2rem 5rem 4rem;
-        &-image {
-            width: 90%;
-        }
-        &-description {
-            width: 90%;
-            font-size: 1.1rem;
-        }
+  .about {
+    margin: 2rem 5rem 4rem;
+    &-image {
+      width: 90%;
     }
+    &-description {
+      width: 90%;
+      font-size: 1.1rem;
+    }
+  }
 }
 
-@media (min-width: $lg){
-    .hero h1 {
-        font-size: 6em;
-    }
+@media (min-width: $lg) {
+  .hero h1 {
+    font-size: 6em;
+  }
 
-    .featured,
-    .recipes {
-        padding: 0 2rem;
-        &-img {
-            grid-template-columns: repeat(3, 1fr);
-        }
+  .featured,
+  .recipes {
+    padding: 0 2rem;
+    &-img {
+      grid-template-columns: repeat(3, 1fr);
     }
+  }
 
-    .about {
-        margin: 2rem 8rem 4rem;
-        &-image {
-            width: 80%;
-        }
-        &-description {
-            width: 80%;
-            font-size: 1.2rem;
-        }
+  .about {
+    margin: 2rem 8rem 4rem;
+    &-image {
+      width: 80%;
     }
+    &-description {
+      width: 80%;
+      font-size: 1.2rem;
+    }
+  }
 
-    .recipe-overlay {
-        opacity: 0;
-    }
+  .recipe-overlay {
+    opacity: 0;
+  }
 
-    .recipe-container:hover .recipe-overlay {
-        opacity: 1;
-        box-shadow: 0 0 10px $babish-black;
-    }
+  .recipe-container:hover .recipe-overlay {
+    opacity: 1;
+    box-shadow: 0 0 10px $babish-black;
+  }
 }

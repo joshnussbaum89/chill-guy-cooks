@@ -1,70 +1,68 @@
-/* ============================================= */
-/*              Recipes                          */
-/* ============================================= */
+// Recipes
 
 .recipes {
-    margin: 0 2rem 4rem;
-    &-search {
-        display: block;
-        margin: 2rem auto;
-        color: $babish-black;
-        border: 1px solid $babish-black;
-        outline: none;
-        height: 3rem;
-        padding: 0 1rem;
-        border-radius: 5px;
-        width: 50%;
-        transition: .2s;
-        &:focus {
-            border-radius: 0px;
-            box-shadow: 5px 5px 0 $babish-black;
-        }
+  margin: 0 2rem 4rem;
+  &-search {
+    display: block;
+    margin: 2rem auto;
+    color: $babish-black;
+    border: 1px solid $babish-black;
+    outline: none;
+    height: 3rem;
+    padding: 0 1rem;
+    border-radius: 5px;
+    width: 50%;
+    transition: 0.2s;
+    &:focus {
+      border-radius: 0px;
+      box-shadow: 5px 5px 0 $babish-black;
     }
-    &-img {
-        display: grid;
-        justify-items: center;
-        grid-template-columns: 1fr;
-        grid-gap: 2rem;
-        padding: 2rem 0;
-    }
+  }
+  &-img {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    padding: 2rem 0;
+  }
 }
 
 // Recipe overlay hover effect
 .recipe-container {
-    position: relative;
+  position: relative;
 }
-  
+
 .recipe-overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 1;
-    transition: .2s ease;
-    background-color: $overlay;
-    &-text {
-        @include absoluteCenter();
-        color: $white;
-        font-size: 1.6rem;
-    }
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  transition: 0.2s ease;
+  background-color: $overlay;
+  &-text {
+    @include absoluteCenter();
+    color: $white;
+    font-size: 1.6rem;
+  }
 }
 
 .recipe-buttons {
-    @include flexy($just: center);
+  @include flexy($just: center);
 }
 
 .recipe-button {
-    font-size: 1rem;
-    background-color: $white;
-    border: 1px solid $babish-black;
-    border-radius: 5px;
-    margin: 0 .5rem;
-    padding: .5rem 1rem;
-    transition: .2s;
-    cursor: pointer;
-    &:hover {
-        color: $white;
-        background-color: $babish-black;
-    }
+  font-size: 1rem;
+  background-color: $white;
+  border: 1px solid $babish-black;
+  border-radius: 5px;
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: 0.2s;
+  cursor: pointer;
+  &:hover {
+    color: $white;
+    background-color: $babish-black;
+  }
 }
